@@ -1,0 +1,759 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en-US"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;meta charset="UTF-8"&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; <br/>
+  &lt;link rel="profile" href="https://gmpg.org/xfn/11"&gt; <br/>
+  &lt;title&gt;XPath &amp; cssSelector Practice Page with all scenarios – SelectorsHub&lt;/title&gt; <br/>
+  &lt;meta name="robots" content="max-image-preview:large"&gt; &lt;!-- Google Tag Manager for WordPress by gtm4wp.com --&gt; <br/>
+  &lt;script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-912NBDY7JJ&amp;l=dataLayer&amp;cx=c"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/javascript" async src="https://www.google-analytics.com/plugins/ua/linkid.js"&gt;&lt;/script&gt;<br/>
+  &lt;script async src="//www.googletagmanager.com/gtm.js?id=GTM-MS3SKLS"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-QWQKMJK5M3&amp;l=dataLayer&amp;cx=c"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/javascript" async src="https://www.google-analytics.com/analytics.js"&gt;&lt;/script&gt;<br/>
+  &lt;script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript"&gt;//&lt;![CDATA[<br/>
+var gtm4wp_datalayer_name="dataLayer";var dataLayer=dataLayer||[];<br/>
+//]]&gt;&lt;/script&gt; &lt;!-- End Google Tag Manager for WordPress by gtm4wp.com --&gt;<br/>
+  &lt;link rel="dns-prefetch" href="//www.googletagmanager.com"&gt; <br/>
+  &lt;link rel="dns-prefetch" href="//fonts.googleapis.com"&gt; <br/>
+  &lt;link rel="dns-prefetch" href="//s.w.org"&gt; <br/>
+  &lt;link rel="alternate" type="application/rss+xml" title="SelectorsHub » Feed" href="https://selectorshub.com/feed/"&gt; <br/>
+  &lt;link rel="alternate" type="application/rss+xml" title="SelectorsHub » Comments Feed" href="https://selectorshub.com/comments/feed/"&gt; &lt;!-- This site uses the Google Analytics by MonsterInsights plugin v8.3.2 - Using Analytics tracking - https://www.monsterinsights.com/ --&gt; <br/>
+  &lt;script src="//www.googletagmanager.com/gtag/js?id=UA-191140309-1" data-cfasync="false" data-wpfc-render="false" async&gt;&lt;/script&gt; <br/>
+  &lt;script data-cfasync="false" data-wpfc-render="false"&gt;var mi_version='8.3.2';var mi_track_user=true;var mi_no_track_reason='';var disableStrs=['ga-disable-UA-191140309-1',];function __gtagTrackerIsOptedOut(){for(var index=0;index&lt;disableStrs.length;index++){if(document.cookie.indexOf(disableStrs[index]+'=true')&gt;-1){return true;}}return false;}if(__gtagTrackerIsOptedOut()){for(var index=0;index&lt;disableStrs.length;index++){window[disableStrs[index]]=true;}}function __gtagTrackerOptout(){for(var index=0;index&lt;disableStrs.length;index++){document.cookie=disableStrs[index]+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';window[disableStrs[index]]=true;}}if('undefined'===typeof gaOptout){function gaOptout(){__gtagTrackerOptout();}}window.dataLayer=window.dataLayer||[];window.MonsterInsightsDualTracker={helpers:{},trackers:{},};if(mi_track_user){function __gtagDataLayer(){dataLayer.push(arguments);}function __gtagTracker(type,name,parameters){if(!parameters){parameters={};}if(parameters.send_to){__gtagDataLayer.apply(null,arguments);return;}if(type==='event'){parameters.send_to=monsterinsights_frontend.ua;__gtagDataLayer(type,name,parameters);}else{__gtagDataLayer.apply(null,arguments);}}__gtagTracker('js',new Date());__gtagTracker('set',{'developer_id.dZGIzZG':true,});__gtagTracker('config','UA-191140309-1',{"forceSSL":"true","link_attribution":"true"});window.gtag=__gtagTracker;(function(){var noopfn=function(){return null;};var newtracker=function(){return new Tracker();};var Tracker=function(){return null;};var p=Tracker.prototype;p.get=noopfn;p.set=noopfn;p.send=function(){var args=Array.prototype.slice.call(arguments);args.unshift('send');__gaTracker.apply(null,args);};var __gaTracker=function(){var len=arguments.length;if(len===0){return;}var f=arguments[len-1];if(typeof f!=='object'||f===null||typeof f.hitCallback!=='function'){if('send'===arguments[0]){var hitConverted,hitObject=false,action;if('event'===arguments[1]){if('undefined'!==typeof arguments[3]){hitObject={'eventAction':arguments[3],'eventCategory':arguments[2],'eventLabel':arguments[4],'value':arguments[5]?arguments[5]:1,}}}if('pageview'===arguments[1]){if('undefined'!==typeof arguments[2]){hitObject={'eventAction':'page_view','page_path':arguments[2],}}}if(typeof arguments[2]==='object'){hitObject=arguments[2];}if(typeof arguments[5]==='object'){Object.assign(hitObject,arguments[5]);}if('undefined'!==typeof arguments[1].hitType){hitObject=arguments[1];if('pageview'===hitObject.hitType){hitObject.eventAction='page_view';}}if(hitObject){action='timing'===arguments[1].hitType?'timing_complete':hitObject.eventAction;hitConverted=mapArgs(hitObject);__gtagTracker('event',action,hitConverted);}}return;}function mapArgs(args){var arg,hit={};var gaMap={'eventCategory':'event_category','eventAction':'event_action','eventLabel':'event_label','eventValue':'event_value','nonInteraction':'non_interaction','timingCategory':'event_category','timingVar':'name','timingValue':'value','timingLabel':'event_label','page':'page_path','location':'page_location','title':'page_title',};for(arg in args){if(!(!args.hasOwnProperty(arg)||!gaMap.hasOwnProperty(arg))){hit[gaMap[arg]]=args[arg];}else{hit[arg]=args[arg];}}return hit;}try{f.hitCallback();}catch(ex){}};__gaTracker.create=newtracker;__gaTracker.getByName=newtracker;__gaTracker.getAll=function(){return[];};__gaTracker.remove=noopfn;__gaTracker.loaded=true;window['__gaTracker']=__gaTracker;})();}else{console.log("");(function(){function __gtagTracker(){return null;}window['__gtagTracker']=__gtagTracker;window['gtag']=__gtagTracker;})();}&lt;/script&gt; &lt;!-- / Google Analytics by MonsterInsights --&gt; <br/>
+  &lt;script&gt;window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/selectorshub.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r&lt;o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);&lt;/script&gt;<br/>
+  &lt;script src="https://selectorshub.com/wp-includes/js/wp-emoji-release.min.js?ver=5.8.3" type="text/javascript" defer&gt;&lt;/script&gt; <br/>
+  &lt;style&gt;img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}&lt;/style&gt; <br/>
+  &lt;link rel="stylesheet" id="astra-theme-css-css" href="https://selectorshub.com/wp-content/themes/astra/assets/css/minified/style.min.css?ver=3.7.7" media="all"&gt; <br/>
+  &lt;style id="astra-theme-css-inline-css"&gt;@font-face{font-family:"Astra";src:url(https://selectorshub.com/wp-content/themes/astra/assets/fonts/astra.woff) format("woff") , url(https://selectorshub.com/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype") , url(https://selectorshub.com/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight:normal;font-style:normal;font-display:fallback}html{font-size:100%}a,.page-title{color:#fb2056}a:hover,a:focus{color:#fb2056}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:'Noto Sans',sans-serif;font-weight:400;font-size:16px;font-size:1rem;line-height:1.7}blockquote{color:#000}h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6,.site-title,.site-title a{font-family:'Montserrat',sans-serif;font-weight:700}.site-title{font-size:22px;font-size:1.375rem;display:block}header .custom-logo-link img{max-width:75px}.astra-logo-svg{width:75px}.ast-archive-description .ast-archive-title{font-size:40px;font-size:2.5rem}.site-header .site-description{font-size:15px;font-size:.9375rem;display:block}.entry-title{font-size:30px;font-size:1.875rem}h1,.entry-content h1{font-size:64px;font-size:4rem;font-family:'Montserrat',sans-serif;text-transform:uppercase}h2,.entry-content h2{font-size:40px;font-size:2.5rem;font-family:'Montserrat',sans-serif;line-height:1.4;text-transform:uppercase}h3,.entry-content h3{font-size:24px;font-size:1.5rem;font-family:'Montserrat',sans-serif}h4,.entry-content h4{font-size:20px;font-size:1.25rem;font-family:'Montserrat',sans-serif}h5,.entry-content h5{font-size:18px;font-size:1.125rem;font-family:'Montserrat',sans-serif}h6,.entry-content h6{font-size:15px;font-size:.9375rem;font-family:'Montserrat',sans-serif}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:1.875rem}::selection{background-color:#fb2056;color:#fff}body,h1,.entry-title a,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6{color:#222}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#fff;border-color:#fb2056;background-color:#fb2056}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#fb2056}input[type="radio"]:checked,input[type="reset"],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type="range"]::-webkit-slider-thumb{border-color:#fb2056;background-color:#fb2056;box-shadow:none}.site-footer a:hover+.post-count,.site-footer a:focus+.post-count{background:#fb2056;border-color:#fb2056}.single .nav-links .nav-previous,.single .nav-links .nav-next{color:#fb2056}.entry-meta,.entry-meta *{line-height:1.45;color:#fb2056}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *,.page-links&gt;.page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#fb2056}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#fb2056}.secondary .calendar_wrap #today,.ast-progress-val span{background:#fb2056}.secondary a:hover+.post-count,.secondary a:focus+.post-count{background:#fb2056;border-color:#fb2056}.calendar_wrap #today&gt;a{color:#fff}.page-links .page-link,.single .post-navigation a{color:#fb2056}.widget-title{font-size:22px;font-size:1.375rem;color:#222}.main-header-menu .menu-link,.ast-header-custom-item a{color:#222}.main-header-menu .menu-item:hover&gt;.menu-link,.main-header-menu .menu-item:hover&gt;.ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu .menu-item.focus&gt;.menu-link,.main-header-menu .menu-item.focus&gt;.ast-menu-toggle,.main-header-menu .current-menu-item&gt;.menu-link,.main-header-menu .current-menu-ancestor&gt;.menu-link,.main-header-menu .current-menu-item&gt;.ast-menu-toggle,.main-header-menu .current-menu-ancestor&gt;.ast-menu-toggle{color:#fb2056}.header-main-layout-3 .ast-main-header-bar-alignment{margin-right:auto}.header-main-layout-2 .site-header-section-left .ast-site-identity{text-align:left}.ast-logo-title-inline .site-logo-img{padding-right:1em}.site-logo-img img{transition:all .2s linear}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:rgba(30,115,190,.87)}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid rgba(30,115,190,.87);color:rgba(30,115,190,.87)}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:rgba(30,115,190,.87);color:#1e73be}.ast-page-builder-template .hentry{margin:0}.ast-page-builder-template .site-content&gt;.ast-container{max-width:100%;padding:0}.ast-page-builder-template .site-content #primary{padding:0;margin:0}.ast-page-builder-template .no-results{text-align:center;margin:4em auto}.ast-page-builder-template .ast-pagination{padding:2em}.ast-page-builder-template .entry-header.ast-no-title.ast-no-thumbnail{margin-top:0}.ast-page-builder-template .entry-header.ast-header-without-markup{margin-top:0;margin-bottom:0}.ast-page-builder-template .entry-header.ast-no-title.ast-no-meta{margin-bottom:0}.ast-page-builder-template.single .post-navigation{padding-bottom:2em}.ast-page-builder-template.single-post .site-content&gt;.ast-container{max-width:100%}.ast-page-builder-template .entry-header{margin-top:4em;margin-left:auto;margin-right:auto;padding-left:20px;padding-right:20px}.ast-page-builder-template .ast-archive-description{margin-top:4em;margin-left:auto;margin-right:auto;padding-left:20px;padding-right:20px}.single.ast-page-builder-template .entry-header{padding-left:20px;padding-right:20px}.ast-page-builder-template.ast-no-sidebar .entry-content .alignwide{margin-left:0;margin-right:0}.ast-small-footer{color:#d3d3d3}.ast-small-footer&gt;.ast-footer-overlay{background-color:#191919}.ast-small-footer a{color:#fb2056}.ast-small-footer a:hover{color:#fb2056}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-width:0;border-top-color:#7a7a7a}.wp-block-buttons.aligncenter{justify-content:center}@media (max-width:782px){.entry-content .wp-block-columns .wp-block-column{margin-left:0}}@media (max-width:921px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 2.14em}.ast-separate-container #primary,.ast-separate-container #secondary{padding:1.5em 0}#primary,#secondary{padding:1.5em 0;margin:0}.ast-left-sidebar #content&gt;.ast-container{display:flex;flex-direction:column-reverse;width:100%}.ast-author-box img.avatar{margin:20px 0 0 0}}@media (min-width:922px){.ast-separate-container.ast-right-sidebar #primary,.ast-separate-container.ast-left-sidebar #primary{border:0}.search-no-results.ast-separate-container #primary{margin-bottom:4em}}.elementor-button-wrapper .elementor-button{border-style:solid;text-decoration:none;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0}body .elementor-button.elementor-size-sm,body .elementor-button.elementor-size-xs,body .elementor-button.elementor-size-md,body .elementor-button.elementor-size-lg,body .elementor-button.elementor-size-xl,body .elementor-button{border-radius:30px;padding-top:17px;padding-right:40px;padding-bottom:17px;padding-left:40px}.elementor-button-wrapper .elementor-button{border-color:#fb2056;background-color:#fb2056}.elementor-button-wrapper .elementor-button:hover,.elementor-button-wrapper .elementor-button:focus{color:#fff;background-color:#fb2056;border-color:#fb2056}.wp-block-button .wp-block-button__link,.elementor-button-wrapper .elementor-button,.elementor-button-wrapper .elementor-button:visited{color:#fff}.elementor-button-wrapper .elementor-button{font-family:inherit;font-weight:700;line-height:1;text-transform:uppercase}body .elementor-button.elementor-size-sm,body .elementor-button.elementor-size-xs,body .elementor-button.elementor-size-md,body .elementor-button.elementor-size-lg,body .elementor-button.elementor-size-xl,body .elementor-button{font-size:14px;font-size:.875rem}.wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link:focus{color:#fff;background-color:#fb2056;border-color:#fb2056}.elementor-widget-heading h2.elementor-heading-title{line-height:1.4}.wp-block-button .wp-block-button__link{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;border-color:#fb2056;background-color:#fb2056;color:#fff;font-family:inherit;font-weight:700;line-height:1;text-transform:uppercase;font-size:14px;font-size:.875rem;border-radius:30px}.wp-block-buttons .wp-block-button .wp-block-button__link{padding-top:17px;padding-right:40px;padding-bottom:17px;padding-left:40px}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;color:#fff;border-color:#fb2056;background-color:#fb2056;border-radius:30px;padding-top:17px;padding-right:40px;padding-bottom:17px;padding-left:40px;font-family:inherit;font-weight:700;font-size:14px;font-size:.875rem;line-height:1;text-transform:uppercase}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.ast-custom-button:hover .button:hover,.ast-custom-button:hover,input[type="reset"]:hover,input[type="reset"]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#fff;background-color:#fb2056;border-color:#fb2056}@media (min-width:544px){.ast-container{max-width:100%}}@media (max-width:544px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single,.ast-separate-container .comments-title,.ast-separate-container .ast-archive-description{padding:1.5em 1em}.ast-separate-container #content .ast-container{padding-left:.54em;padding-right:.54em}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 1em;margin-bottom:1.5em}.ast-separate-container .ast-comment-list .bypostauthor{padding:.5em}.ast-search-menu-icon.ast-dropdown-active .search-field{width:170px}.site-branding img,.site-header .site-logo-img .custom-logo-link img{max-width:100%}}@media (max-width:921px){.ast-mobile-header-stack .main-header-bar .ast-search-menu-icon{display:inline-block}.ast-header-break-point.ast-header-custom-item-outside .ast-mobile-header-stack .main-header-bar .ast-search-icon{margin:0}.ast-comment-avatar-wrap img{max-width:2.5em}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 2.14em}.ast-separate-container .comment-respond{padding:2em 2.14em}.ast-comment-meta{padding:0 1.8888em 1.3333em}}.ast-no-sidebar.ast-separate-container .entry-content .alignfull{margin-left:-6.67em;margin-right:-6.67em;width:auto}@media (max-width:1200px){.ast-no-sidebar.ast-separate-container .entry-content .alignfull{margin-left:-2.4em;margin-right:-2.4em}}@media (max-width:768px){.ast-no-sidebar.ast-separate-container .entry-content .alignfull{margin-left:-2.14em;margin-right:-2.14em}}@media (max-width:544px){.ast-no-sidebar.ast-separate-container .entry-content .alignfull{margin-left:-1em;margin-right:-1em}}.ast-no-sidebar.ast-separate-container .entry-content .alignwide{margin-left:-20px;margin-right:-20px}.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignfull,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignwide{margin-left:auto;margin-right:auto;width:100%}@media (max-width:921px){.site-title{display:block}.ast-archive-description .ast-archive-title{font-size:40px}.site-header .site-description{display:block}.entry-title{font-size:30px}h1,.entry-content h1{font-size:44px}h2,.entry-content h2{font-size:32px}h3,.entry-content h3{font-size:20px}.ast-single-post .entry-title,.page-title{font-size:30px}.astra-logo-svg{width:56px}header .custom-logo-link img,.ast-header-break-point .site-logo-img .custom-mobile-logo-link img{max-width:56px}}@media (max-width:544px){.widget-title{font-size:21px;font-size:1.4rem}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-size:15px;font-size:.9375rem}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:.9375rem}.site-title{font-size:20px;font-size:1.25rem;display:block}.ast-archive-description .ast-archive-title{font-size:40px}.site-header .site-description{font-size:14px;font-size:.875rem;display:block}.entry-title{font-size:30px}h1,.entry-content h1{font-size:30px}h2,.entry-content h2{font-size:24px}h3,.entry-content h3{font-size:20px}h4,.entry-content h4{font-size:19px;font-size:1.1875rem}h5,.entry-content h5{font-size:16px;font-size:1rem}h6,.entry-content h6{font-size:15px;font-size:.9375rem}.ast-single-post .entry-title,.page-title{font-size:30px}header .custom-logo-link img,.ast-header-break-point .site-branding img,.ast-header-break-point .custom-logo-link img{max-width:100px}.astra-logo-svg{width:100px}.ast-header-break-point .site-logo-img .custom-mobile-logo-link img{max-width:100px}}@media (max-width:921px){html{font-size:91.2%}}@media (max-width:544px){html{font-size:100%}}@media (min-width:922px){.ast-container{max-width:1240px}}@media (max-width:921px){.main-header-bar .main-header-bar-navigation{display:none}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#fb2056}.ast-desktop .main-header-menu.submenu-with-border .sub-menu{border-top-width:2px;border-right-width:0;border-left-width:0;border-bottom-width:0;border-style:solid}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu{top:-2px}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .menu-link,.ast-desktop .main-header-menu.submenu-with-border .children .menu-link{border-bottom-width:0;border-style:solid;border-color:#eaeaea}@media (min-width:922px){.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu:hover&gt;.sub-menu,.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu.focus&gt;.sub-menu{margin-left:-0}}.ast-small-footer{border-top-style:solid;border-top-width:0;border-top-color:#7a7a7a}.ast-small-footer-wrap{text-align:center}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .main-header-bar-navigation .ast-search-icon{display:none}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-form{padding:0;display:block;overflow:hidden}.ast-header-break-point .ast-header-custom-item .widget:last-child{margin-bottom:1em}.ast-header-custom-item .widget{margin:.5em;display:inline-block;vertical-align:middle}.ast-header-custom-item .widget p{margin-bottom:0}.ast-header-custom-item .widget li{width:auto}.ast-header-custom-item-inside .button-custom-menu-item .menu-link{display:none}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .ast-custom-button-link{display:none}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .menu-link{display:block}.ast-header-break-point.ast-header-custom-item-outside .main-header-bar .ast-search-icon{margin-right:1em}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-field,.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon.ast-inline-search .search-field{width:100%;padding-right:5.5em}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-submit{display:block;position:absolute;height:100%;top:0;right:0;padding:0 1em;border-radius:0}.ast-header-break-point .ast-header-custom-item .ast-masthead-custom-menu-items{padding-left:20px;padding-right:20px;margin-bottom:1em;margin-top:1em}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item{padding-left:0;padding-right:0;margin-top:0;margin-bottom:0}.astra-icon-down_arrow::after{content:"\e900";font-family:Astra}.astra-icon-close::after{content:"\e5cd";font-family:Astra}.astra-icon-drag_handle::after{content:"\e25d";font-family:Astra}.astra-icon-format_align_justify::after{content:"\e235";font-family:Astra}.astra-icon-menu::after{content:"\e5d2";font-family:Astra}.astra-icon-reorder::after{content:"\e8fe";font-family:Astra}.astra-icon-search::after{content:"\e8b6";font-family:Astra}.astra-icon-zoom_in::after{content:"\e56b";font-family:Astra}.astra-icon-check-circle::after{content:"\e901";font-family:Astra}.astra-icon-shopping-cart::after{content:"\f07a";font-family:Astra}.astra-icon-shopping-bag::after{content:"\f290";font-family:Astra}.astra-icon-shopping-basket::after{content:"\f291";font-family:Astra}.astra-icon-circle-o::after{content:"\e903";font-family:Astra}.astra-icon-certificate::after{content:"\e902";font-family:Astra}blockquote{padding:1.2em}:root .has-ast-global-color-0-color{color:var(--ast-global-color-0)}:root .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0)}:root .wp-block-button .has-ast-global-color-0-color{color:var(--ast-global-color-0)}:root .wp-block-button .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0)}:root .has-ast-global-color-1-color{color:var(--ast-global-color-1)}:root .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1)}:root .wp-block-button .has-ast-global-color-1-color{color:var(--ast-global-color-1)}:root .wp-block-button .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1)}:root .has-ast-global-color-2-color{color:var(--ast-global-color-2)}:root .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2)}:root .wp-block-button .has-ast-global-color-2-color{color:var(--ast-global-color-2)}:root .wp-block-button .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2)}:root .has-ast-global-color-3-color{color:var(--ast-global-color-3)}:root .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3)}:root .wp-block-button .has-ast-global-color-3-color{color:var(--ast-global-color-3)}:root .wp-block-button .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3)}:root .has-ast-global-color-4-color{color:var(--ast-global-color-4)}:root .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4)}:root .wp-block-button .has-ast-global-color-4-color{color:var(--ast-global-color-4)}:root .wp-block-button .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4)}:root .has-ast-global-color-5-color{color:var(--ast-global-color-5)}:root .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5)}:root .wp-block-button .has-ast-global-color-5-color{color:var(--ast-global-color-5)}:root .wp-block-button .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5)}:root .has-ast-global-color-6-color{color:var(--ast-global-color-6)}:root .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6)}:root .wp-block-button .has-ast-global-color-6-color{color:var(--ast-global-color-6)}:root .wp-block-button .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6)}:root .has-ast-global-color-7-color{color:var(--ast-global-color-7)}:root .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7)}:root .wp-block-button .has-ast-global-color-7-color{color:var(--ast-global-color-7)}:root .wp-block-button .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7)}:root .has-ast-global-color-8-color{color:var(--ast-global-color-8)}:root .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8)}:root .wp-block-button .has-ast-global-color-8-color{color:var(--ast-global-color-8)}:root .wp-block-button .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8)}:root{--ast-global-color-0:#0170b9;--ast-global-color-1:#3a3a3a;--ast-global-color-2:#3a3a3a;--ast-global-color-3:#4b4f58;--ast-global-color-4:#f5f5f5;--ast-global-color-5:#fff;--ast-global-color-6:#f2f5f7;--ast-global-color-7:#424242;--ast-global-color-8:#000}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit}.ast-breadcrumbs .trail-items{list-style:none}.trail-items li::after{padding:0 .3em;content:"\00bb"}.trail-items li:last-of-type::after{display:none}h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6{color:#222}.elementor-widget-heading .elementor-heading-title{margin:0}.elementor-post.elementor-grid-item.hentry{margin-bottom:0}.woocommerce div.product .elementor-element.elementor-products-grid .related.products ul.products li.product,.elementor-element .elementor-wc-products .woocommerce[class*="columns-"] ul.products li.product{width:auto;margin:0;float:none}.ast-left-sidebar .elementor-section.elementor-section-stretched,.ast-right-sidebar .elementor-section.elementor-section-stretched{max-width:100%;left:0!important}.elementor-template-full-width .ast-container{display:block}@media (max-width:544px){.elementor-element .elementor-wc-products .woocommerce[class*="columns-"] ul.products li.product{width:auto;margin:0}.elementor-element .woocommerce .woocommerce-result-count{float:none}}.ast-header-break-point .main-header-bar{border-bottom-width:0}@media (min-width:922px){.main-header-bar{border-bottom-width:0}}.ast-safari-browser-less-than-11 .main-header-menu .menu-item,.ast-safari-browser-less-than-11 .main-header-bar .ast-masthead-custom-menu-items{display:block}.main-header-menu .menu-item,#astra-footer-menu .menu-item,.main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.main-header-menu&gt;.menu-item&gt;.menu-link,#astra-footer-menu&gt;.menu-item&gt;.menu-link{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex}.ast-primary-menu-disabled .main-header-bar .ast-masthead-custom-menu-items{flex:unset}.header-main-layout-1 .ast-flex.main-header-container,.header-main-layout-3 .ast-flex.main-header-container{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.main-header-menu .sub-menu .menu-item.menu-item-has-children&gt;.menu-link:after{position:absolute;right:1em;top:50%;transform:translate(0,-50%) rotate(270deg)}.ast-header-break-point .main-header-bar .main-header-bar-navigation .page_item_has_children&gt;.ast-menu-toggle::before,.ast-header-break-point .main-header-bar .main-header-bar-navigation .menu-item-has-children&gt;.ast-menu-toggle::before,.ast-mobile-popup-drawer .main-header-bar-navigation .menu-item-has-children&gt;.ast-menu-toggle::before,.ast-header-break-point .ast-mobile-header-wrap .main-header-bar-navigation .menu-item-has-children&gt;.ast-menu-toggle::before{font-weight:bold;content:"\e900";font-family:Astra;text-decoration:inherit;display:inline-block}.ast-header-break-point .main-navigation ul.sub-menu .menu-item .menu-link:before{content:"\e900";font-family:Astra;font-size:.65em;text-decoration:inherit;display:inline-block;transform:translate(0,-2px) rotateZ(270deg);margin-right:5px}.widget_search .search-form:after{font-family:Astra;font-size:1.2em;font-weight:normal;content:"\e8b6";position:absolute;top:50%;right:15px;transform:translate(0,-50%)}.astra-search-icon::before{content:"\e8b6";font-family:Astra;font-style:normal;font-weight:normal;text-decoration:inherit;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.main-header-bar .main-header-bar-navigation .page_item_has_children&gt;a:after,.main-header-bar .main-header-bar-navigation .menu-item-has-children&gt;a:after,.site-header-focus-item .main-header-bar-navigation .menu-item-has-children&gt;.menu-link:after{content:"\e900";display:inline-block;font-family:Astra;font-size:.6rem;font-weight:bold;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;line-height:normal}.ast-mobile-popup-drawer .main-header-bar-navigation .ast-submenu-expanded&gt;.ast-menu-toggle::before{transform:rotateX(180deg)}.ast-header-break-point .main-header-bar-navigation .menu-item-has-children&gt;.menu-link:after{display:none}.ast-separate-container .blog-layout-1,.ast-separate-container .blog-layout-2,.ast-separate-container .blog-layout-3{background-color:transparent;background-image:none}.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5)}@media (max-width:921px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5)}}@media (max-width:544px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5)}}.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .comments-area .comment-respond,.ast-separate-container .comments-area .ast-comment-list li, .ast-separate-container .ast-woocommerce-container, .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container.ast-two-container #secondary .widget,.ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content,.ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .comments-area .comments-title{background-color:var(--ast-global-color-5)}@media (max-width:921px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .comments-area .comment-respond,.ast-separate-container .comments-area .ast-comment-list li, .ast-separate-container .ast-woocommerce-container, .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container.ast-two-container #secondary .widget,.ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content,.ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .comments-area .comments-title{background-color:var(--ast-global-color-5)}}@media (max-width:544px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .comments-area .comment-respond,.ast-separate-container .comments-area .ast-comment-list li, .ast-separate-container .ast-woocommerce-container, .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container.ast-two-container #secondary .widget,.ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content,.ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .comments-area .comments-title{background-color:var(--ast-global-color-5)}}:root{--e-global-color-astglobalcolor0:#0170b9;--e-global-color-astglobalcolor1:#3a3a3a;--e-global-color-astglobalcolor2:#3a3a3a;--e-global-color-astglobalcolor3:#4b4f58;--e-global-color-astglobalcolor4:#f5f5f5;--e-global-color-astglobalcolor5:#fff;--e-global-color-astglobalcolor6:#f2f5f7;--e-global-color-astglobalcolor7:#424242;--e-global-color-astglobalcolor8:#000}&lt;/style&gt; <br/>
+  &lt;link rel="stylesheet" id="astra-google-fonts-css" href="https://fonts.googleapis.com/css?family=Noto+Sans%3A400%2C700%7CMontserrat%3A700%2C&amp;display=fallback&amp;ver=3.7.7" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="astra-menu-animation-css" href="https://selectorshub.com/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=3.7.7" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="wp-block-library-css" href="https://selectorshub.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3" media="all"&gt; <br/>
+  &lt;style id="global-styles-inline-css"&gt;body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--color--ast-global-color-0:var(--ast-global-color-0);--wp--preset--color--ast-global-color-1:var(--ast-global-color-1);--wp--preset--color--ast-global-color-2:var(--ast-global-color-2);--wp--preset--color--ast-global-color-3:var(--ast-global-color-3);--wp--preset--color--ast-global-color-4:var(--ast-global-color-4);--wp--preset--color--ast-global-color-5:var(--ast-global-color-5);--wp--preset--color--ast-global-color-6:var(--ast-global-color-6);--wp--preset--color--ast-global-color-7:var(--ast-global-color-7);--wp--preset--color--ast-global-color-8:var(--ast-global-color-8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,#7adcb4 0%,#00d082 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,#cf2e2e 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,#eee 0%,#a9b8c3 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,#4aeadc 0%,#9778d1 20%,#cf2aba 40%,#ee2c82 60%,#fb6962 80%,#fef84c 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,#ffceec 0%,#9896f0 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,#fecda5 0%,#fe2d2d 50%,#6b003e 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,#ffcb70 0%,#c751c0 50%,#4158d0 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,#fff5cb 0%,#b6e3d4 50%,#33a7b5 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,#caf880 0%,#71ce7e 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,#020381 0%,#2874fc 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--normal:16px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--huge:42px}.has-black-color{color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-color{color:var(--wp--preset--color--white)!important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple)!important}.has-ast-global-color-0-color{color:var(--wp--preset--color--ast-global-color-0)!important}.has-ast-global-color-1-color{color:var(--wp--preset--color--ast-global-color-1)!important}.has-ast-global-color-2-color{color:var(--wp--preset--color--ast-global-color-2)!important}.has-ast-global-color-3-color{color:var(--wp--preset--color--ast-global-color-3)!important}.has-ast-global-color-4-color{color:var(--wp--preset--color--ast-global-color-4)!important}.has-ast-global-color-5-color{color:var(--wp--preset--color--ast-global-color-5)!important}.has-ast-global-color-6-color{color:var(--wp--preset--color--ast-global-color-6)!important}.has-ast-global-color-7-color{color:var(--wp--preset--color--ast-global-color-7)!important}.has-ast-global-color-8-color{color:var(--wp--preset--color--ast-global-color-8)!important}.has-black-background-color{background-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-background-color{background-color:var(--wp--preset--color--white)!important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple)!important}.has-ast-global-color-0-background-color{background-color:var(--wp--preset--color--ast-global-color-0)!important}.has-ast-global-color-1-background-color{background-color:var(--wp--preset--color--ast-global-color-1)!important}.has-ast-global-color-2-background-color{background-color:var(--wp--preset--color--ast-global-color-2)!important}.has-ast-global-color-3-background-color{background-color:var(--wp--preset--color--ast-global-color-3)!important}.has-ast-global-color-4-background-color{background-color:var(--wp--preset--color--ast-global-color-4)!important}.has-ast-global-color-5-background-color{background-color:var(--wp--preset--color--ast-global-color-5)!important}.has-ast-global-color-6-background-color{background-color:var(--wp--preset--color--ast-global-color-6)!important}.has-ast-global-color-7-background-color{background-color:var(--wp--preset--color--ast-global-color-7)!important}.has-ast-global-color-8-background-color{background-color:var(--wp--preset--color--ast-global-color-8)!important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)!important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)!important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)!important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)!important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)!important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum)!important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple)!important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux)!important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk)!important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean)!important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass)!important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight)!important}.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)!important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)!important}&lt;/style&gt; <br/>
+  &lt;link rel="stylesheet" id="wpbs-style-css" href="https://selectorshub.com/wp-content/plugins/wp-booking-system/assets/css/style-front-end.min.css?ver=2.0.15" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="wpbs-style-form-css" href="https://selectorshub.com/wp-content/plugins/wp-booking-system/assets/css/style-front-end-form.min.css,qver=2.0.15.pagespeed.ce.0ASAhmGy6C.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="wpdp-style2-css" href="https://selectorshub.com/wp-content/plugins/wp-datepicker/css/front-styles.css?t=1644417490&amp;ver=5.8.3" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="wpdp-style3-css" href="https://selectorshub.com/wp-content/plugins/wp-datepicker/css/A.jquery-ui.css,qver=5.8.3.pagespeed.cf.Wt7TPREZVd.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="tablepress-default-css" href="https://selectorshub.com/wp-content/tablepress-combined.min.css,qver=1.pagespeed.ce.ZA6H3AplNm.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-icons-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/eicons/css/A.elementor-icons.min.css,qver=5.14.0.pagespeed.cf.nUl_-Xodb6.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-frontend-legacy-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/css/A.frontend-legacy.min.css,qver=3.5.5.pagespeed.cf.9VHh6kdHp7.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-frontend-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/css/frontend.min.css,qver=3.5.5.pagespeed.ce.G1if0mSusc.css" media="all"&gt; <br/>
+  &lt;style id="elementor-post-442-css" media="all"&gt;.elementor-kit-442{--e-global-color-primary:#6ec1e4;--e-global-color-secondary:#54595f;--e-global-color-text:#7a7a7a;--e-global-color-accent:#61ce70;--e-global-color-41e7dfde:#4054b2;--e-global-color-6515e091:#23a455;--e-global-color-4f7bd54f:#000;--e-global-color-4972adcb:#fff;--e-global-color-d94ab8a:#09efb0;--e-global-color-6c3768c:#000;--e-global-color-559fdd0:#299ecf;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500}.elementor-section.elementor-section-boxed&gt;.elementor-container{max-width:1140px}.elementor-widget:not(:last-child){margin-bottom:20px}{}h1.entry-title{display:var(--page-title-display)}@media (max-width:1024px){.elementor-section.elementor-section-boxed&gt;.elementor-container{max-width:1024px}}@media (max-width:767px){.elementor-section.elementor-section-boxed&gt;.elementor-container{max-width:767px}}&lt;/style&gt; <br/>
+  &lt;link rel="stylesheet" id="font-awesome-5-all-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/A.all.min.css,qver=3.5.5.pagespeed.cf._mbokTOiYl.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="font-awesome-4-shim-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/A.v4-shims.min.css,qver=3.5.5.pagespeed.cf.0XlImbwfpC.css" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-post-6034-css" href="https://selectorshub.com/wp-content/uploads/elementor/css/post-6034.css?ver=1644174723" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.8.3" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all"&gt; <br/>
+  &lt;link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all"&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"&gt;&lt;/script&gt; &lt;!--[if IE]&gt;<br/>
+&lt;script type='text/javascript' src='https://selectorshub.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=3.7.7' id='astra-flexibility-js'&gt;&lt;/script&gt;<br/>
+&lt;script type='text/javascript' id='astra-flexibility-js-after'&gt;<br/>
+flexibility(document.documentElement);<br/>
+&lt;/script&gt;<br/>
+&lt;![endif]--&gt; <br/>
+  &lt;script type="text/javascript" id="monsterinsights-frontend-script-js-extra"&gt;//&lt;![CDATA[<br/>
+var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/selectorshub.com","hash_tracking":"false","ua":"UA-191140309-1","v4_id":""};<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://selectorshub.com/wp-content,_plugins,_google-analytics-for-wordpress,_assets,_js,_frontend-gtag.min.js,qver==8.3.2+wp-includes,_js,_jquery,_ui,_core.min.js,qver==1.12.1+wp-includes,_js,_jquery,_ui,_datepicker.min.js,qver==1.12.1.pagespeed.jc.ztPzeHOSPE.js"&gt;&lt;/script&gt;<br/>
+  &lt;script&gt;eval(mod_pagespeed_fAvI3_zot3);&lt;/script&gt; <br/>
+  &lt;script&gt;eval(mod_pagespeed_sW$mfufcJe);&lt;/script&gt; <br/>
+  &lt;script&gt;eval(mod_pagespeed_JBWJijxovY);&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="jquery-ui-datepicker-js-after"&gt;jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});&lt;/script&gt; <br/>
+  &lt;script src="https://selectorshub.com/wp-content/plugins/wp-datepicker/js/scripts-front.js,qver==5.8.3+i18n,_datepicker-en-GB.js,qver==5.8.3.pagespeed.jc.srFZ6yo6FE.js"&gt;&lt;/script&gt;<br/>
+  &lt;script&gt;eval(mod_pagespeed_VgJXpBzZ1H);&lt;/script&gt; <br/>
+  &lt;script&gt;eval(mod_pagespeed_OIoD2xwxNc);&lt;/script&gt; &lt;!-- Google Analytics snippet added by Site Kit --&gt; <br/>
+  &lt;script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-191140309-1" id="google_gtagjs-js" async&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="google_gtagjs-js-after"&gt;window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('set','linker',{"domains":["selectorshub.com"]});gtag("js",new Date());gtag("set","developer_id.dZTNiMT",true);gtag("config","UA-191140309-1",{"anonymize_ip":true});gtag("config","G-QWQKMJK5M3");&lt;/script&gt; &lt;!-- End Google Analytics snippet added by Site Kit --&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js,qver=3.5.5.pagespeed.jm.Pv1hXXq0jZ.js" id="font-awesome-4-shim-js"&gt;&lt;/script&gt; <br/>
+  &lt;link rel="https://api.w.org/" href="https://selectorshub.com/wp-json/"&gt;<br/>
+  &lt;link rel="alternate" type="application/json" href="https://selectorshub.com/wp-json/wp/v2/pages/6034"&gt;<br/>
+  &lt;link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://selectorshub.com/xmlrpc.php?rsd"&gt; <br/>
+  &lt;link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://selectorshub.com/wp-includes/wlwmanifest.xml"&gt; <br/>
+  &lt;meta name="generator" content="WordPress 5.8.3"&gt; <br/>
+  &lt;link rel="canonical" href="https://selectorshub.com/xpath-practice-page/"&gt; <br/>
+  &lt;link rel="shortlink" href="https://selectorshub.com/?p=6034"&gt; <br/>
+  &lt;link rel="alternate" type="application/json+oembed" href="https://selectorshub.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fselectorshub.com%2Fxpath-practice-page%2F"&gt; <br/>
+  &lt;link rel="alternate" type="text/xml+oembed" href="https://selectorshub.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fselectorshub.com%2Fxpath-practice-page%2F&amp;format=xml"&gt; <br/>
+  &lt;meta name="generator" content="Site Kit by Google 1.49.1"&gt; &lt;!-- Google Tag Manager for WordPress by gtm4wp.com --&gt; <br/>
+  &lt;script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript"&gt;//&lt;![CDATA[<br/>
+var dataLayer_content={"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"Sanjay Kumar | SelectorsHub Creator"};dataLayer.push(dataLayer_content);<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script data-cfasync="false"&gt;//&lt;![CDATA[<br/>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MS3SKLS');<br/>
+//]]&gt;&lt;/script&gt; &lt;!-- End Google Tag Manager --&gt; &lt;!-- End Google Tag Manager for WordPress by gtm4wp.com --&gt;<br/>
+  &lt;link rel="icon" href="https://selectorshub.com/wp-content/uploads/2020/07/cropped-logo-512-32x32.png" sizes="32x32"&gt; <br/>
+  &lt;link rel="icon" href="https://selectorshub.com/wp-content/uploads/2020/07/cropped-logo-512-192x192.png" sizes="192x192"&gt; <br/>
+  &lt;link rel="apple-touch-icon" href="https://selectorshub.com/wp-content/uploads/2020/07/cropped-logo-512-180x180.png"&gt; <br/>
+  &lt;meta name="msapplication-TileImage" content="https://selectorshub.com/wp-content/uploads/2020/07/cropped-logo-512-270x270.png"&gt; <br/>
+ &lt;/head&gt; <br/>
+ &lt;body data-rsssl="1" itemtype="https://schema.org/WebPage" itemscope class="page-template-default page page-id-6034 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-3.7.7 ast-header-custom-item-inside group-blog ast-single-post ast-replace-site-logo-transparent ast-inherit-site-logo-transparent elementor-default elementor-kit-442 elementor-page elementor-page-6034 e--ua-blink e--ua-chrome e--ua-webkit" onload="myFunction()" style="margin: 0px;" data-elementor-device-mode="tablet"&gt; &lt;a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content"&gt; Skip to content&lt;/a&gt; <br/>
+  &lt;div class="hfeed site" id="page"&gt; <br/>
+   &lt;header class="site-header ast-primary-submenu-animation-fade header-main-layout-2 ast-primary-menu-enabled ast-logo-title-inline ast-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope itemid="#masthead"&gt; <br/>
+    &lt;div class="main-header-bar-wrap"&gt; <br/>
+     &lt;div class="main-header-bar"&gt; <br/>
+      &lt;div class="ast-container"&gt; <br/>
+       &lt;div class="ast-flex main-header-container"&gt; <br/>
+        &lt;div class="site-branding"&gt; <br/>
+         &lt;div class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope&gt; &lt;span class="site-logo-img"&gt;&lt;a href="https://selectorshub.com/" class="custom-logo-link" rel="home"&gt;&lt;img width="100" height="100" src="https://selectorshub.com/wp-content/uploads/2020/07/logo-512-100x100.png" class="custom-logo" alt="SelectorsHub" srcset="https://selectorshub.com/wp-content/uploads/2020/07/logo-512-100x100.png 100w, https://selectorshub.com/wp-content/uploads/2020/07/xlogo-512-300x300.png.pagespeed.ic.6K4Gq5j1JL.webp 300w, https://selectorshub.com/wp-content/uploads/2020/07/logo-512-150x150.png 150w, https://selectorshub.com/wp-content/uploads/2020/07/logo-512.png 512w" sizes="(max-width: 100px) 100vw, 100px"&gt;&lt;/a&gt;&lt;/span&gt;<br/>
+          &lt;div class="ast-site-title-wrap"&gt; &lt;span class="site-title" itemprop="name"&gt; &lt;a href="https://selectorshub.com/" rel="home" itemprop="url"&gt; SelectorsHub &lt;/a&gt; &lt;/span&gt; <br/>
+           &lt;p class="site-description" itemprop="description"&gt; Innovation Inspired Automation!! &lt;/p&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; &lt;!-- .site-branding --&gt; <br/>
+        &lt;div class="ast-mobile-menu-buttons"&gt; <br/>
+         &lt;div class="ast-button-wrap"&gt; &lt;button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-buttons-fill" aria-controls="primary-menu" aria-expanded="false" data-index="0"&gt; &lt;span class="screen-reader-text"&gt;Main Menu&lt;/span&gt; &lt;span class="ast-icon icon-menu-bars"&gt;&lt;span class="menu-toggle-icon"&gt;&lt;/span&gt;&lt;/span&gt; &lt;/button&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="ast-main-header-bar-alignment"&gt;<br/>
+         &lt;div class="main-header-bar-navigation"&gt;<br/>
+          &lt;nav class="site-navigation ast-flex-grow-1 navigation-accessibility" id="primary-site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope&gt;<br/>
+           &lt;div class="main-navigation"&gt;<br/>
+            &lt;ul id="primary-menu" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex ast-justify-content-flex-end  submenu-with-border astra-menu-animation-fade " aria-expanded="false"&gt;<br/>
+             &lt;li id="menu-item-4293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"&gt;&lt;a href="https://selectorshub.com/testcase-studio/" class="menu-link"&gt;TestCase Studio&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-5458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5458"&gt;&lt;a href="https://selectorshub.com/selectorshub-training/" class="menu-link"&gt;Training&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-6880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6880"&gt;&lt;a href="https://selectorshub.com/courses-recordings/" class="menu-link"&gt;Courses&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-5940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5940"&gt;&lt;a href="https://selectorshub.com/certification/" class="menu-link"&gt;Certification&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-6592" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6034 current_page_item menu-item-6592"&gt;&lt;a href="https://selectorshub.com/xpath-practice-page/" aria-current="page" class="menu-link"&gt;Practice Page&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-890"&gt;&lt;a href="https://selectorshub.com/changelog/" class="menu-link"&gt;ChangeLog&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"&gt;&lt;a href="https://selectorshub.com/donate/" class="menu-link"&gt;Donate&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-881" aria-haspopup="true"&gt;&lt;a href="https://selectorshub.com/more/" class="menu-link"&gt;More&lt;/a&gt;&lt;button class="ast-menu-toggle" aria-expanded="false"&gt;&lt;span class="screen-reader-text"&gt;Menu Toggle&lt;/span&gt;&lt;span class="ast-icon icon-arrow"&gt;&lt;/span&gt;&lt;/button&gt; <br/>
+              &lt;ul class="sub-menu"&gt; <br/>
+               &lt;li id="menu-item-8246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8246"&gt;&lt;a href="https://selectorshub.com/sponsors/" class="menu-link"&gt;Sponsors&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-6533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6533"&gt;&lt;a href="https://selectorshub.com/selectorshub-one-to-one-support/" class="menu-link"&gt;One to one support&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-6997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6997"&gt;&lt;a href="https://selectorshub.com/automation-challenges/" class="menu-link"&gt;Automation Challenges&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-826"&gt;&lt;a href="https://selectorshub.com/videotutorials/" class="menu-link"&gt;Video Tutorials&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-625"&gt;&lt;a href="https://selectorshub.com/blogs/" class="menu-link"&gt;Blogs&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-3754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3754"&gt;&lt;a href="https://selectorshub.com/instructions/" class="menu-link"&gt;Instructions&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-4156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"&gt;&lt;a href="https://selectorshub.com/xpath-and-cssselector-functions/" class="menu-link"&gt;XPath and cssSelector functions.&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-2245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2245"&gt;&lt;a href="https://selectorshub.com/recommended-automation-courses-udemy/" class="menu-link"&gt;Recommended Automation Courses @Udemy&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-3432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"&gt;&lt;a href="https://selectorshub.com/reviews/" class="menu-link"&gt;Review&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1856"&gt;&lt;a href="https://selectorshub.com/selectorshub-tips-and-tricks/" class="menu-link"&gt;SelectorsHub: Tips &amp; Tricks&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-1245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1245"&gt;&lt;a href="https://selectorshub.com/events/" class="menu-link"&gt;Events&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-1590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1590"&gt;&lt;a href="https://selectorshub.com/community-partner/" class="menu-link"&gt;Community-partner&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602"&gt;&lt;a href="https://selectorshub.com/community/" class="menu-link"&gt;Join Community&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-885"&gt;&lt;a href="https://selectorshub.com/contact/" class="menu-link"&gt;Contact&lt;/a&gt;&lt;/li&gt; <br/>
+               &lt;li id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"&gt;&lt;a href="https://selectorshub.com/about/" class="menu-link"&gt;About&lt;/a&gt;&lt;/li&gt; <br/>
+              &lt;/ul&gt; &lt;/li&gt; <br/>
+             &lt;li class="ast-masthead-custom-menu-items search-custom-menu-item"&gt; <br/>
+              &lt;div class="ast-search-menu-icon slide-search" tabindex="-1"&gt; <br/>
+               &lt;div class="ast-search-icon"&gt; &lt;a class="slide-search astra-search-icon" aria-label="Search icon link" href="#"&gt; &lt;span class="screen-reader-text"&gt;Search&lt;/span&gt; &lt;span class="ast-icon icon-search"&gt;&lt;/span&gt; &lt;/a&gt; <br/>
+               &lt;/div&gt; <br/>
+               &lt;form role="search" method="get" class="search-form" action="https://selectorshub.com/"&gt; &lt;label&gt; &lt;span class="screen-reader-text"&gt;Search for:&lt;/span&gt; &lt;input type="search" class="search-field" placeholder="Search …" value="" name="s" tabindex="-1"&gt; &lt;/label&gt; <br/>
+               &lt;/form&gt; <br/>
+              &lt;/div&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/nav&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt;&lt;!-- Main Header Container --&gt; <br/>
+      &lt;/div&gt;&lt;!-- ast-row --&gt; <br/>
+     &lt;/div&gt; &lt;!-- Main Header Bar --&gt; <br/>
+    &lt;/div&gt; &lt;!-- Main Header Bar Wrap --&gt; <br/>
+   &lt;/header&gt;&lt;!-- #masthead --&gt; <br/>
+   &lt;div id="content" class="site-content"&gt; <br/>
+    &lt;div class="ast-container"&gt; <br/>
+     &lt;div id="primary" class="content-area primary"&gt; <br/>
+      &lt;main id="main" class="site-main"&gt; <br/>
+       &lt;article class="post-6034 page type-page status-publish has-post-thumbnail ast-article-single" id="post-6034" itemtype="https://schema.org/CreativeWork" itemscope&gt; <br/>
+        &lt;header class="entry-header ast-header-without-markup"&gt; <br/>
+        &lt;/header&gt;&lt;!-- .entry-header --&gt; <br/>
+        &lt;div class="entry-content clear" itemprop="text"&gt; <br/>
+         &lt;div data-elementor-type="wp-page" data-elementor-id="6034" class="elementor elementor-6034" data-elementor-settings="[]"&gt; <br/>
+          &lt;div class="elementor-inner"&gt; <br/>
+           &lt;div class="elementor-section-wrap"&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-e69fc5f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e69fc5f" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1e1acb5" data-id="1e1acb5" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-995b661 elementor-widget elementor-widget-heading" data-id="995b661" data-element_type="widget" data-widget_type="heading.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;h3 class="elementor-heading-title elementor-size-default"&gt;A page where you will find all the scenarios to practice for automation&lt;/h3&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-3a49bd0 elementor-widget elementor-widget-heading" data-id="3a49bd0" data-element_type="widget" data-widget_type="heading.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;h4 class="elementor-heading-title elementor-size-default"&gt;&lt;a href="https://testrigor.com/?utm_source=selectorshub&amp;utm_medium=xpp" target="_blank"&gt;Find out how to automate these controls without XPath&lt;/a&gt;&lt;/h4&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-c965fa5 elementor-widget elementor-widget-text-editor" data-id="c965fa5" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                     &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; <br/>
+                     &lt;style&gt;#loader{position:absolute;left:50%;top:50%;z-index:1;width:120px;height:120px;margin:-76px 0 0 -76px;border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}@-webkit-keyframes spin {<br/>
+  0% { -webkit-transform: rotate(0deg); }<br/>
+  100% { -webkit-transform: rotate(360deg); }<br/>
+}@keyframes spin {<br/>
+  0% { transform: rotate(0deg); }<br/>
+  100% { transform: rotate(360deg); }<br/>
+}.animate-bottom{position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duration:1s;animation-name:animatebottom;animation-duration:1s}@-webkit-keyframes animatebottom {<br/>
+  from { bottom:-100px; opacity:0 } <br/>
+  to { bottom:0px; opacity:1 }<br/>
+}@keyframes animatebottom { <br/>
+  from{ bottom:-100px; opacity:0 } <br/>
+  to{ bottom:0; opacity:1 }<br/>
+}#myDiv{display:none;text-align:center}&lt;/style&gt; <br/>
+                     &lt;script&gt;var myVar;function myFunction(){myVar=setTimeout(showPage,100);}function showPage(){document.getElementById("loader").remove();}&lt;/script&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;section class="elementor-section elementor-inner-section elementor-element elementor-element-11214aa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11214aa" data-element_type="section"&gt; <br/>
+                   &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+                    &lt;div class="elementor-row"&gt; <br/>
+                     &lt;div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d7ae067" data-id="d7ae067" data-element_type="column"&gt; <br/>
+                      &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                       &lt;div class="elementor-widget-wrap"&gt; <br/>
+                        &lt;div class="elementor-element elementor-element-83ee927 elementor-widget elementor-widget-text-editor" data-id="83ee927" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                         &lt;div class="elementor-widget-container"&gt; <br/>
+                          &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                           &lt;form role="form" autocomplete="off_anystring"&gt; <br/>
+                            &lt;div class="userform"&gt; &lt;label&gt;User Email&lt;/label&gt; <br/>
+                             &lt;br&gt; <br/>
+                             &lt;input id="userId" class="selectors-input jsSelector" title="Email" spellcheck="false" autocomplete="anyrandomstring" name="email" value="" placeholder="Enter email" readonly type="email" onfocus="if (this.hasAttribute('readonly')) {<br/>
+    this.removeAttribute('readonly');<br/>
+    // fix for mobile safari to show virtual keyboard<br/>
+    this.blur();    this.focus();  }"&gt; <br/>
+                             &lt;br&gt;<br/>
+                             &lt;br&gt; &lt;label&gt;Password&lt;/label&gt; <br/>
+                             &lt;br&gt; <br/>
+                             &lt;input id="pass" class="selectors-input jsSelector" title="Password" spellcheck="false" autocomplete="off_anyrandomstring" name="Password" type="password" value="" placeholder="Enter Password"&gt; <br/>
+                             &lt;br&gt;<br/>
+                             &lt;br&gt; <br/>
+                             &lt;div class="content block panel check-height  parent-inline-cont"&gt; <br/>
+                              &lt;div class="element-companyId"&gt; <br/>
+                              &lt;div class="form-group"&gt; <br/>
+                              &lt;div class="input-group input-block"&gt; <br/>
+                              &lt;div class="input-label"&gt;<br/>
+                              &lt;label&gt;Company&lt;/label&gt;<br/>
+                              &lt;/div&gt; &lt;span class="input-group-addon icon icon-company"&gt;&lt;/span&gt; <br/>
+                              &lt;input name="company" type="text" class="form-control" placeholder="Enter your company"&gt; <br/>
+                              &lt;/div&gt; &lt;span class="help-block"&gt;&lt;/span&gt; <br/>
+                              &lt;/div&gt; <br/>
+                              &lt;/div&gt; <br/>
+                             &lt;/div&gt; <br/>
+                             &lt;div class="content block panel check-height  parent-inline-cont" style="display: none;"&gt; <br/>
+                              &lt;div class="element-company"&gt; <br/>
+                              &lt;div class="form-group"&gt; <br/>
+                              &lt;div class="input-group input-block"&gt; <br/>
+                              &lt;div class="input-label"&gt;<br/>
+                              &lt;label&gt;Company&lt;/label&gt;<br/>
+                              &lt;/div&gt; &lt;span class="input-group-addon icon icon-company"&gt;&lt;/span&gt; <br/>
+                              &lt;input name="company" type="text" class="form-control" placeholder="Enter your company"&gt; <br/>
+                              &lt;/div&gt; &lt;span class="help-block"&gt;&lt;/span&gt; <br/>
+                              &lt;/div&gt; <br/>
+                              &lt;/div&gt; <br/>
+                             &lt;/div&gt; <br/>
+                             &lt;div class="content block panel check-height  parent-inline-cont" style="display: none;"&gt; <br/>
+                              &lt;div class="element-company"&gt; <br/>
+                              &lt;div class="form-group"&gt; <br/>
+                              &lt;div class="input-group input-block"&gt; <br/>
+                              &lt;div class="input-label"&gt;<br/>
+                              &lt;label&gt;Company&lt;/label&gt;<br/>
+                              &lt;/div&gt; &lt;span class="input-group-addon icon icon-company"&gt;&lt;/span&gt; <br/>
+                              &lt;input name="company" type="text" class="form-control" placeholder="Enter your company"&gt; <br/>
+                              &lt;/div&gt; &lt;span class="help-block"&gt;&lt;/span&gt; <br/>
+                              &lt;/div&gt; <br/>
+                              &lt;/div&gt; <br/>
+                             &lt;/div&gt; <br/>
+                             &lt;div class="content block panel check-height  parent-inline-cont" style="display: none;"&gt; <br/>
+                              &lt;div class="element-company"&gt; <br/>
+                              &lt;div class="form-group"&gt; <br/>
+                              &lt;div class="input-group input-block"&gt; <br/>
+                              &lt;div class="input-label"&gt;<br/>
+                              &lt;label&gt;Company&lt;/label&gt;<br/>
+                              &lt;/div&gt; &lt;span class="input-group-addon icon icon-company"&gt;&lt;/span&gt; <br/>
+                              &lt;input name="company" type="text" class="form-control" placeholder="Enter your company"&gt; <br/>
+                              &lt;/div&gt; &lt;span class="help-block"&gt;&lt;/span&gt; <br/>
+                              &lt;/div&gt; <br/>
+                              &lt;/div&gt; <br/>
+                             &lt;/div&gt; <br/>
+                             &lt;br&gt; <br/>
+                             &lt;input value="Submit" type="submit"&gt; <br/>
+                             &lt;br&gt; <br/>
+                             &lt;div class="js-854"&gt;&lt;/div&gt; <br/>
+                             &lt;br&gt; &lt;!-- test application --&gt; &lt;span&gt;TestCase Studio&lt;a href="https://selectorshub.com/testcase-studio/" target="_blank"&gt;DownLoad Link&lt;/a&gt;&lt;/span&gt; <br/>
+                             &lt;br&gt;<br/>
+                             &lt;br&gt; &lt;a href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1" target="_blank"&gt; SelectorsHub Youtube Channel &lt;/a&gt; <br/>
+                             &lt;br&gt; <br/>
+                             &lt;br&gt; &lt;a href="https://bit.ly/shub_training_udemy" target="_blank"&gt; A course with complex scenarios like &lt;span&gt;Shadow DOM,&lt;/span&gt; &lt;span&gt; iframe inside shadow root, &lt;/span&gt; &lt;span&gt;nested shadow dom inside iframe and a lot more&lt;/span&gt; &lt;/a&gt; <br/>
+                             &lt;br&gt; &lt;a href="https://selectorshub.com/"&gt;&lt;/a&gt; &lt;a href="https://selectorshub.com/get-the-selectorshub-training-recordings-and-material/"&gt; &lt;/a&gt; <br/>
+                             &lt;br&gt;<br/>
+                             &lt;br&gt; <br/>
+                             &lt;h3&gt;Users Table &lt;/h3&gt; <br/>
+                            &lt;/div&gt;<br/>
+                           &lt;/form&gt; <br/>
+                           &lt;div id="tableWrapper"&gt; <br/>
+                            &lt;table id="resultTable" class="table hover"&gt; <br/>
+                             &lt;thead&gt; <br/>
+                              &lt;tr&gt; <br/>
+                              &lt;th class="checkbox-col" rowspan="1"&gt;&lt;input id="ohrmList_chkSelectAll" name="chkSelectAll" type="checkbox" value=""&gt;&lt;/th&gt; <br/>
+                              &lt;th class="header" style="width: 33%;" rowspan="1"&gt;&lt;a class="null" href="https://bit.ly/shub_training_udemy"&gt;Username&lt;/a&gt;&lt;/th&gt; <br/>
+                              &lt;th class="header" style="width: 20%;" rowspan="1"&gt;&lt;a class="null" href="https://bit.ly/shub_training_udemy"&gt;User Role&lt;/a&gt;&lt;/th&gt; <br/>
+                              &lt;th class="header" style="width: 33%;" rowspan="1"&gt;&lt;a class="null" href="https://bit.ly/shub_training_udemy"&gt;Employee Name&lt;/a&gt;&lt;/th&gt; <br/>
+                              &lt;th class="header" style="width: 14%;" rowspan="1"&gt;&lt;a class="null" href="https://bit.ly/shub_training_udemy"&gt;Status&lt;/a&gt;&lt;/th&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                             &lt;/thead&gt; <br/>
+                             &lt;tbody&gt; <br/>
+                              &lt;tr class="usr_acn"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_25" name="chkSelectRow[]" type="checkbox" value="25"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://bit.ly/shub_training_udemy"&gt;Garry.White&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;ESS&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Garry White&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                              &lt;tr class="usr_acn"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_16" name="chkSelectRow[]" type="checkbox" value="16"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://bit.ly/shub_training_udemy"&gt;Jasmine.Morgan&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;ESS&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Jasmine Morgan&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                              &lt;tr class="plan rit"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_21" name="chkSelectRow[]" type="checkbox" value="21"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://bit.ly/shub_training_udemy"&gt;Joe.Root&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;ESS&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Joe Root&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                              &lt;tr class="usr_acn"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_2" name="chkSelectRow[]" type="checkbox" value="2"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1"&gt;John.Smith&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Admin&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;John Smith&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                              &lt;tr class="plan rit"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_14" name="chkSelectRow[]" type="checkbox" value="14"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1"&gt;Jordan.Mathews&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;ESS&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Jordan Mathews&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                              &lt;tr class="plan rit"&gt; <br/>
+                              &lt;td&gt;&lt;input id="ohrmList_chkSelectRecord_15" name="chkSelectRow[]" type="checkbox" value="15"&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;&lt;a href="https://bit.ly/shub_training_udemy"&gt;Kevin.Mathews&lt;/a&gt;&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;ESS&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Kevin Mathews&lt;/td&gt; <br/>
+                              &lt;td class="left"&gt;Enabled&lt;/td&gt; <br/>
+                              &lt;/tr&gt; <br/>
+                             &lt;/tbody&gt; <br/>
+                            &lt;/table&gt; <br/>
+                           &lt;/div&gt; <br/>
+                           &lt;div id="userName" class="jackPart"&gt;&lt;/div&gt; <br/>
+                           &lt;div id="userPass"&gt;&lt;/div&gt;<br/>
+                           &lt;br&gt; <br/>
+                           &lt;script&gt;const open=document.getElementById("userName");const shadowRootOpen=open.attachShadow({mode:'open'});shadowRootOpen.innerHTML='&lt;a class="learningHub" href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1" target="_blank"&gt;Learning Hub&lt;/a&gt;&lt;h4&gt;UserName&lt;/h4&gt;&lt;input type="text" id="kils" title="user name field" value="" autocorrect="off" autocapitalize="off" placeholder="enter name" autocomplete="off" spellcheck="false"&gt;&lt;br&gt;&lt;svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 24" width="50%"&gt;&lt;path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;br&gt;&lt;iframe id="pact1" src="https://selectorshub.com/input-box/" height="100px" style="border:none;"&gt;&lt;/iframe&gt;&lt;div id="app2" qaid="country"&gt;&lt;/div&gt;&lt;div id="concepts" qaid="letsTest"&gt;&lt;/div&gt;';const openNested=document.querySelector("#userName").shadowRoot.querySelector("#app2");const shadowRootOpenNested=openNested.attachShadow({mode:"open"});shadowRootOpenNested.innerHTML='&lt;br&gt;&lt;input type="text" id="pizza" placeholder="Enter pizza name"&gt;'<br/>
+const closed=document.getElementById("userPass");const shadowRootClosed=closed.attachShadow({mode:'closed'});shadowRootClosed.innerHTML='&lt;h4&gt;Password&lt;/h4&gt;&lt;input type="password" id="pwd" title="user password field" value="" autocorrect="off" autocapitalize="off" placeholder="enter password" autocomplete="off" spellcheck="false"&gt;';const closedNested=document.querySelector("#userName").shadowRoot.querySelector("#concepts");const shadowRootClosedNested=closedNested.attachShadow({mode:'closed'});shadowRootClosedNested.innerHTML='&lt;br&gt;&lt;h4&gt;Concept Test&lt;/h4&gt;&lt;input style="width: 400px;" type="text" id="training" placeholder="Does DevTools ctl+f gives always the right count of xpath match?"&gt;&lt;br&gt;&lt;br&gt;&lt;a style="text-decoration:none;" href="https://bit.ly/shub_training_udemy" target="_blank" title="Can you click on this link through Automation?"&gt;Learn XPath & Advance Automation Concepts&lt;/a&gt;'&lt;/script&gt; <br/>
+                          &lt;/div&gt; <br/>
+                         &lt;/div&gt; <br/>
+                        &lt;/div&gt; <br/>
+                       &lt;/div&gt; <br/>
+                      &lt;/div&gt; <br/>
+                     &lt;/div&gt; <br/>
+                     &lt;div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6bd00b5" data-id="6bd00b5" data-element_type="column"&gt; <br/>
+                      &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                       &lt;div class="elementor-widget-wrap"&gt; <br/>
+                        &lt;div class="elementor-element elementor-element-a906ddd elementor-widget elementor-widget-text-editor" data-id="a906ddd" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                         &lt;div class="elementor-widget-container"&gt; <br/>
+                          &lt;div class="elementor-text-editor elementor-clearfix"&gt; &lt;span&gt;Inspect this element, you will see comment just below the html of this element in DOM&lt;/span&gt; &lt;!-- This is a comment ---&gt; <br/>
+                           &lt;br&gt;<br/>
+                           &lt;br&gt; <br/>
+                           &lt;div&gt; &lt;label&gt;Can you enter name here through automation <br/>
+                             &lt;svg style="enable-background:new 0 0 24 24;" version="1.1" viewbox="0 0 224 24" width="50%" onclick="nameField()" iconid="editon"&gt;<br/>
+                              &lt;path d="M19.607,18.746c0,0.881-0.716,1.624-1.597,1.624H5.231c-0.881,0-1.597-0.743-1.597-1.624V5.967  c0-0.881,0.716-1.571,1.597-1.571h7.454V3.332H5.231c-1.468,0-2.662,1.168-2.662,2.636v12.778c0,1.468,1.194,2.688,2.662,2.688  h12.778c1.468,0,2.662-1.221,2.662-2.688v-7.428h-1.065V18.746z"&gt;&lt;/path&gt;&lt;path d="M20.807,3.17c-0.804-0.805-2.207-0.805-3.012,0l-7.143,7.143c-0.068,0.068-0.117,0.154-0.14,0.247L9.76,13.571  c-0.045,0.181,0.008,0.373,0.14,0.506c0.101,0.101,0.237,0.156,0.376,0.156c0.043,0,0.086-0.005,0.129-0.016l3.012-0.753  c0.094-0.023,0.179-0.072,0.247-0.14l7.143-7.143c0.402-0.402,0.624-0.937,0.624-1.506S21.21,3.572,20.807,3.17z M13.016,12.467  l-2.008,0.502l0.502-2.008l5.909-5.909l1.506,1.506L13.016,12.467z M20.054,5.428l-0.376,0.376l-1.506-1.506l0.376-0.376  c0.402-0.402,1.104-0.402,1.506,0c0.201,0.201,0.312,0.468,0.312,0.753C20.366,4.96,20.255,5.227,20.054,5.428z"&gt;&lt;/path&gt;<br/>
+                             &lt;/svg&gt;&lt;br&gt;&lt;/label&gt; <br/>
+                            &lt;input class="nameFld" name="test" value="" placeholder="First Enter name" disabled&gt; <br/>
+                            &lt;br&gt;<br/>
+                            &lt;br&gt; <br/>
+                            &lt;input class="nameFld" name="test" value="" placeholder="Enter Last name" disabled&gt; <br/>
+                            &lt;div data="//button[normalize-space()='Checkout here'][@class='dropbtn']" dataattr="//button[@class='dropbtn'][normalize-space()='Checkout here']"&gt;&lt;/div&gt; <br/>
+                           &lt;/div&gt; <br/>
+                           &lt;br&gt; <br/>
+                           &lt;div class="js_blk"&gt;&lt;/div&gt; <br/>
+                           &lt;div class="js_sub_blk"&gt;&lt;/div&gt; <br/>
+                           &lt;h3&gt;Useful Links for learning&lt;/h3&gt; <br/>
+                           &lt;div class="dropdown"&gt; &lt;button class="dropbtn"&gt;Checkout here&lt;/button&gt; <br/>
+                            &lt;div class="dropdown-content"&gt; &lt;a target="_blank" href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1"&gt;SHub Youtube Channel&lt;/a&gt; &lt;a target="_blank" href="https://selectorshub.com/selectorshub-training/"&gt;Join Training&lt;/a&gt; &lt;a target="_blank" href="https://selectorshub.com/testcase-studio/"&gt;Try TestCase Studio&lt;/a&gt; <br/>
+                            &lt;/div&gt; <br/>
+                           &lt;/div&gt; <br/>
+                           &lt;br&gt;<br/>
+                           &lt;br&gt; <br/>
+                           &lt;div class="সংক্রমণ"&gt; &lt;span aria-label="করোনা"&gt;করোনা সংক্রমণ বাড়াচ্ছে&lt;/span&gt; <br/>
+                            &lt;br&gt; <br/>
+                            &lt;p title="XPath 也支持中文"&gt;也支持中文&lt;/p&gt; <br/>
+                           &lt;/div&gt; <br/>
+                           &lt;input id="datepicker" value="pick a date" autocomplete="off"&gt; <br/>
+                           &lt;input type="date" name="the_date"&gt; <br/>
+                           &lt;br&gt;<br/>
+                           &lt;br&gt; <br/>
+                           &lt;h5&gt;&lt;a href="https://selectorshub.com/donate/" title="Click to donate" target="_blank"&gt;Consider a small Donation and support this page.&lt;/a&gt;&lt;/h5&gt; <br/>
+                           &lt;style&gt;.dropbtn{background-color:#4caf50;color:#fff;padding:16px;font-size:16px;border:none;cursor:pointer}.dropdown{position:relative;display:inline-block}.dropdown-content{display:none;position:absolute;background-color:#f9f9f9;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);z-index:1}.dropdown-content a{color:#000;padding:12px 16px;text-decoration:none;display:block}.dropdown-content a:hover{background-color:#f1f1f1}.dropdown:hover .dropdown-content{display:block}.dropdown:hover .dropbtn{background-color:#3e8e41}&lt;/style&gt; <br/>
+                           &lt;br&gt;<br/>
+                           &lt;br&gt; <br/>
+                           &lt;h3&gt;Food Time&lt;/h3&gt; &lt;iframe loading="lazy" id="pact" src="https://selectorshub.com/shadow-dom-closed-shadowdom/" width="100" height="800"&gt;&lt;/iframe&gt; <br/>
+                           &lt;canvas id="canpro" width="200" height="100" style="border:1px solid #d3d3d3;"&gt;&lt;/canvas&gt; <br/>
+                           &lt;br&gt;<br/>
+                           &lt;br&gt; &lt;span class="abc" aria-label="toolSearch"&gt; If you find difficult to handle any scenario on this page, checkout the tutorial here on &lt;a href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1" target="_blank"&gt;SelectorsHub Youtube channel&lt;/a&gt; and if you want to learn each concept in detail, you must join this live &lt;a href="https://selectorshub.com/"&gt;SelectorsHub&lt;/a&gt; &lt;a href="https://selectorshub.com/selectorshub-training/"&gt;Training &lt;/a&gt; &lt;span class="sec"&gt;.&lt;/span&gt;&lt;/span&gt; <br/>
+                           &lt;br&gt; <br/>
+                           &lt;script&gt;var c=document.getElementById("canpro");var ctx=c.getContext("2d");ctx.font="20px Arial";ctx.fillText("Page Map",10,50);function nameField(){var name=document.querySelector(".nameFld");name.disabled=false;}&lt;/script&gt; <br/>
+                          &lt;/div&gt; <br/>
+                         &lt;/div&gt; <br/>
+                        &lt;/div&gt; <br/>
+                       &lt;/div&gt; <br/>
+                      &lt;/div&gt; <br/>
+                     &lt;/div&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/section&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-29776b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="29776b5" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c919f2e" data-id="c919f2e" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-8ee32b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8ee32b7" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8fdeece" data-id="8fdeece" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-df7b674 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df7b674" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bf5b82" data-id="2bf5b82" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-a2f566a elementor-widget elementor-widget-text-editor" data-id="a2f566a" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                     &lt;h3&gt; Memory Test&lt;/h3&gt; &lt;iframe id="pact1" src="https://selectorshub.com/iframe-and-nested-iframe/" height="300px"&gt; &lt;/iframe&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-871816f elementor-widget elementor-widget-text-editor" data-id="871816f" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; &lt;iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLSev98eahLZQDLWPrEyhFAsxC2DXtSBYmipg9WwFiWMcc7PK1A/viewform?embedded=true" width="640" height="200" frameborder="0" marginwidth="0" marginheight="0"&gt;Loading…&lt;/iframe&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-9146a62 elementor-widget elementor-widget-spacer" data-id="9146a62" data-element_type="widget" data-widget_type="spacer.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-spacer"&gt; <br/>
+                     &lt;div class="elementor-spacer-inner"&gt;&lt;/div&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-8fe87d5 elementor-widget elementor-widget-shortcode" data-id="8fe87d5" data-element_type="widget" data-widget_type="shortcode.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-shortcode"&gt;<br/>
+                     &lt;h2 id="tablepress-3-name" class="tablepress-table-name tablepress-table-name-id-3"&gt;System Distribution Details&lt;/h2&gt; <br/>
+                     &lt;div id="tablepress-3_wrapper" class="dataTables_wrapper no-footer"&gt;<br/>
+                      &lt;div class="dataTables_length" id="tablepress-3_length"&gt;<br/>
+                       &lt;label&gt;Show &lt;select name="tablepress-3_length" aria-controls="tablepress-3" class=""&gt;&lt;option value="10"&gt;10&lt;/option&gt;&lt;option value="25"&gt;25&lt;/option&gt;&lt;option value="50"&gt;50&lt;/option&gt;&lt;option value="100"&gt;100&lt;/option&gt;&lt;/select&gt; entries&lt;/label&gt;<br/>
+                      &lt;/div&gt;<br/>
+                      &lt;div id="tablepress-3_filter" class="dataTables_filter"&gt;<br/>
+                       &lt;label&gt;Search:&lt;input type="search" class="" placeholder="" aria-controls="tablepress-3"&gt;&lt;/label&gt;<br/>
+                      &lt;/div&gt;<br/>
+                      &lt;table id="tablepress-3" class="tablepress tablepress-id-3 dataTable no-footer" aria-labelledby="tablepress-3-name" role="grid" aria-describedby="tablepress-3_info"&gt; <br/>
+                       &lt;thead&gt; <br/>
+                        &lt;tr class="row-1 odd" role="row"&gt;<br/>
+                         &lt;th class="column-1 sorting" tabindex="0" aria-controls="tablepress-3" rowspan="1" colspan="1" aria-label="&amp;nbsp;: activate to sort column ascending" style="width: 29.6094px;"&gt;&nbsp;&lt;/th&gt;<br/>
+                         &lt;th class="column-2 sorting" tabindex="0" aria-controls="tablepress-3" rowspan="1" colspan="1" aria-label="OS: activate to sort column ascending" style="width: 119.281px;"&gt;OS&lt;/th&gt;<br/>
+                         &lt;th class="column-3 sorting" tabindex="0" aria-controls="tablepress-3" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 140.391px;"&gt;Browser&lt;/th&gt;<br/>
+                         &lt;th class="column-4 sorting" tabindex="0" aria-controls="tablepress-3" rowspan="1" colspan="1" aria-label="City: activate to sort column ascending" style="width: 242.047px;"&gt;City&lt;/th&gt;<br/>
+                         &lt;th class="column-5 sorting" tabindex="0" aria-controls="tablepress-3" rowspan="1" colspan="1" aria-label="Country: activate to sort column ascending" style="width: 220.672px;"&gt;Country&lt;/th&gt;<br/>
+                        &lt;/tr&gt; <br/>
+                       &lt;/thead&gt; <br/>
+                       &lt;tbody class="row-hover"&gt; <br/>
+                        &lt;tr class="row-2 even"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Hvidovre&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;Denmark&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-3 odd"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Lake Mary&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;United States&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-4 even"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Samsun&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;Turkey&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-5 odd"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Hyderabad&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-6 even"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Hyderabad&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-7 odd"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Visakhapatnam&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-8 even"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;Edge&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Ranchi&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-9 odd"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Khamnor&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-10 even"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;chrome&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Visakhapatnam&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                        &lt;tr class="row-11 odd"&gt; <br/>
+                         &lt;td class="column-1"&gt;&lt;input type="checkbox"&gt;&lt;/td&gt;<br/>
+                         &lt;td class="column-2"&gt;windows&lt;/td&gt;<br/>
+                         &lt;td class="column-3"&gt;Edge&lt;/td&gt;<br/>
+                         &lt;td class="column-4"&gt;Navi Mumbai&lt;/td&gt;<br/>
+                         &lt;td class="column-5"&gt;India&lt;/td&gt; <br/>
+                        &lt;/tr&gt;<br/>
+                       &lt;/tbody&gt; <br/>
+                      &lt;/table&gt;<br/>
+                      &lt;div class="dataTables_info" id="tablepress-3_info" role="status" aria-live="polite"&gt;<br/>
+                       Showing 1 to 10 of 99 entries<br/>
+                      &lt;/div&gt;<br/>
+                      &lt;div class="dataTables_paginate paging_simple" id="tablepress-3_paginate"&gt;<br/>
+                       &lt;a class="paginate_button previous disabled" aria-controls="tablepress-3" data-dt-idx="0" tabindex="-1" id="tablepress-3_previous"&gt;Previous&lt;/a&gt;&lt;a class="paginate_button next" aria-controls="tablepress-3" data-dt-idx="1" tabindex="0" id="tablepress-3_next"&gt;Next&lt;/a&gt;<br/>
+                      &lt;/div&gt;<br/>
+                     &lt;/div&gt; &lt;!-- #tablepress-3 from cache --&gt;<br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-5b8fb7e elementor-widget elementor-widget-spacer" data-id="5b8fb7e" data-element_type="widget" data-widget_type="spacer.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-spacer"&gt; <br/>
+                     &lt;div class="elementor-spacer-inner"&gt;&lt;/div&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-e40ae39 elementor-widget elementor-widget-text-editor" data-id="e40ae39" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                     &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; <br/>
+                     &lt;style&gt;.pagination{display:flex;justify-content:center}.pagination a{color:#000;float:left;padding:8px 16px;text-decoration:none;transition:background-color .3s}.pagination a.active{background-color:#1e90ff;color:#fff}.previous{color:gray;float:left;padding:8px 16px;text-decoration:none;transition:background-color .3s;background:#fff}.pagination a:hover:not(.active) {background-color:#ddd}&lt;/style&gt; <br/>
+                     &lt;div class="pagination"&gt; &lt;span class="previous"&gt;« Prev &lt;/span&gt; &lt;a class="active" href="https://selectorshub.com/xpath-practice-page/"&gt;1&lt;/a&gt; &lt;a href="https://selectorshub.com/courses-recordings/"&gt;2&lt;/a&gt; &lt;a href="https://selectorshub.com/selectorshub-training/"&gt;3&lt;/a&gt; &lt;a href="https://selectorshub.com/courses-recordings/"&gt;Next »&lt;/a&gt; <br/>
+                     &lt;/div&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-4e86ca0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e86ca0" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cbeacc9" data-id="cbeacc9" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-e5a835e elementor-widget elementor-widget-text-editor" data-id="e5a835e" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; &lt;span class="abc" aria-label="toolSearch"&gt; If you find difficult to handle any scenario on this page, checkout the tutorial here on &lt;a href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1" target="_blank"&gt;SelectorsHub Youtube channel&lt;/a&gt; and if you want to learn each concept in detail, you must join this live &lt;a href="https://selectorshub.com/"&gt;SelectorsHub&lt;/a&gt; &lt;a href="https://selectorshub.com/selectorshub-training/"&gt;Training &lt;/a&gt; &lt;span class="sec"&gt;.&lt;/span&gt;&lt;/span&gt; <br/>
+                     &lt;br&gt; <br/>
+                     &lt;p class="ultra"&gt;Checkout the Training Feedback &lt;a href="https://selectorshub.com/selectorshub-training-feedback/"&gt;Here&lt;/a&gt;&lt;/p&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-f42b0bf elementor-widget elementor-widget-heading" data-id="f42b0bf" data-element_type="widget" data-widget_type="heading.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;h4 class="elementor-heading-title elementor-size-default"&gt;Need any help&lt;br&gt;email - selectorshub@gmail.com&lt;/h4&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-4380e8c elementor-widget elementor-widget-text-editor" data-id="4380e8c" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                     &lt;p&gt;&lt;strong&gt;Note: Want to add any specific scenario on this page, please write to us at selectorshub@gmail.com or connect on slack for one to one chat.&lt;/strong&gt;&lt;/p&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-aae723f elementor-shape-circle e-grid-align-left e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="aae723f" data-element_type="widget" data-widget_type="social-icons.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-social-icons-wrapper elementor-grid"&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-slack elementor-repeater-item-237a534" href="https://bit.ly/SH_Slack" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Slack&lt;/span&gt; &lt;i class="fab fa-slack"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-repeater-item-8c1c1cd" href="https://t.me/selectorshub" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Telegram&lt;/span&gt; &lt;i class="fab fa-telegram"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-0ec3dce" href="https://www.youtube.com/c/SelectorsHubTheXPathTool?sub_confirmation=1" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Youtube&lt;/span&gt; &lt;i class="fab fa-youtube"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-59965a7" href="https://www.instagram.com/SelectorsHub/" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Instagram&lt;/span&gt; &lt;i class="fab fa-instagram"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-6f043ce" href="https://twitter.com/SelectorsHub" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Twitter&lt;/span&gt; &lt;i class="fab fa-twitter"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-1911005" href="https://www.linkedin.com/company/selectorshub/" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Linkedin&lt;/span&gt; &lt;i class="fab fa-linkedin"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-57fe014" href="https://www.facebook.com/selectorshub/" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Facebook-f&lt;/span&gt; &lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-quora elementor-repeater-item-f1e8f60" href="https://selectorshub.quora.com/" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Quora&lt;/span&gt; &lt;i class="fab fa-quora"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; &lt;span class="elementor-grid-item"&gt; &lt;a class="elementor-icon elementor-social-icon elementor-social-icon-reddit elementor-repeater-item-74bc21e" href="https://www.reddit.com/user/SelectorsHub/" target="_blank"&gt; &lt;span class="elementor-screen-only"&gt;Reddit&lt;/span&gt; &lt;i class="fab fa-reddit"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/span&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+            &lt;section class="elementor-section elementor-top-section elementor-element elementor-element-3fb9061 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3fb9061" data-element_type="section"&gt; <br/>
+             &lt;div class="elementor-container elementor-column-gap-default"&gt; <br/>
+              &lt;div class="elementor-row"&gt; <br/>
+               &lt;div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-76f4571" data-id="76f4571" data-element_type="column"&gt; <br/>
+                &lt;div class="elementor-column-wrap elementor-element-populated"&gt; <br/>
+                 &lt;div class="elementor-widget-wrap"&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-a6d8232 elementor-align-center elementor-widget elementor-widget-button" data-id="a6d8232" data-element_type="widget" data-widget_type="button.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-button-wrapper"&gt; &lt;a href="https://selectorshub.com/donate/" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button"&gt; &lt;span class="elementor-button-content-wrapper"&gt; &lt;span class="elementor-button-text"&gt;Donate and support this page for community&lt;/span&gt; &lt;/span&gt; &lt;/a&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-934b8cd elementor-widget elementor-widget-heading" data-id="934b8cd" data-element_type="widget" data-widget_type="heading.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;h4 class="elementor-heading-title elementor-size-default"&gt;Complex Scenarios Covered in this page&lt;/h4&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;div class="elementor-element elementor-element-73b7ac7 elementor-widget elementor-widget-text-editor" data-id="73b7ac7" data-element_type="widget" data-widget_type="text-editor.default"&gt; <br/>
+                   &lt;div class="elementor-widget-container"&gt; <br/>
+                    &lt;div class="elementor-text-editor elementor-clearfix"&gt; <br/>
+                     &lt;ul&gt;<br/>
+                      &lt;li&gt;Shadow DOM (Shadow-root)&lt;/li&gt;<br/>
+                      &lt;li&gt;SVG element inside shadow DOM.&lt;/li&gt;<br/>
+                      &lt;li&gt;Nested Shadow DOM.&lt;/li&gt;<br/>
+                      &lt;li&gt;Closed Shadow DOM.&lt;/li&gt;<br/>
+                      &lt;li&gt;Closed shadow dom inside Open shadow dom.&lt;/li&gt;<br/>
+                      &lt;li&gt;iframe inside shadow DOM.&lt;/li&gt;<br/>
+                      &lt;li&gt;Shadow DOM inside iframe.&lt;/li&gt;<br/>
+                      &lt;li&gt;Nested Shadow DOM inside iframe.&lt;/li&gt;<br/>
+                      &lt;li&gt;Closed shadow DOM inside iframe.&lt;/li&gt;<br/>
+                      &lt;li&gt;Closed shadow dom inside open shadow dom and open shadow dom inside iframe.&lt;/li&gt;<br/>
+                      &lt;li&gt;Canvas element.&lt;/li&gt;<br/>
+                      &lt;li&gt;Single iframe.&lt;/li&gt;<br/>
+                      &lt;li&gt;Nested iframes.&lt;/li&gt;<br/>
+                      &lt;li&gt;Cross Origin iframe&lt;/li&gt;<br/>
+                      &lt;li&gt;Spin Loader which disappear in 3 sec.&lt;/li&gt;<br/>
+                      &lt;li&gt;Email field with HTML form validation message tooltip.&lt;/li&gt;<br/>
+                      &lt;li&gt;Comment in DOM.&lt;/li&gt;<br/>
+                      &lt;li&gt;SVG element.&lt;/li&gt;<br/>
+                      &lt;li&gt;Disabled Input box which get enabled by clicking on an element.&lt;/li&gt;<br/>
+                      &lt;li&gt;Dropdown whose element can be inspected but disappear from UI on inspect.&lt;/li&gt;<br/>
+                      &lt;li&gt;WebElement to explain the text, dot and normalize-space() function of xpath.&lt;/li&gt;<br/>
+                      &lt;li&gt;HTML Table&nbsp;&lt;/li&gt;<br/>
+                      &lt;li&gt;Link without text.&lt;/li&gt;<br/>
+                      &lt;li&gt;Link with junk space text.&lt;/li&gt;<br/>
+                      &lt;li&gt;Non Interactable Elements&nbsp;&lt;/li&gt;<br/>
+                      &lt;li&gt;Pseudo Elements.&lt;/li&gt;<br/>
+                      &lt;li&gt;Not function of XPath.&lt;/li&gt;<br/>
+                      &lt;li&gt;Axes Based XPath.&lt;/li&gt;<br/>
+                      &lt;li&gt;cssSelector and all other selectors.&lt;/li&gt;<br/>
+                      &lt;li&gt;Pagination (Thanks to NaveenAutomationLabs for recommending this scenario.)&lt;/li&gt;<br/>
+                     &lt;/ul&gt; <br/>
+                    &lt;/div&gt; <br/>
+                   &lt;/div&gt; <br/>
+                  &lt;/div&gt; <br/>
+                 &lt;/div&gt; <br/>
+                &lt;/div&gt; <br/>
+               &lt;/div&gt; <br/>
+              &lt;/div&gt; <br/>
+             &lt;/div&gt; <br/>
+            &lt;/section&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt;&lt;!-- .entry-content .clear --&gt; <br/>
+       &lt;/article&gt;&lt;!-- #post-## --&gt; <br/>
+      &lt;/main&gt;&lt;!-- #main --&gt; <br/>
+     &lt;/div&gt;&lt;!-- #primary --&gt; <br/>
+    &lt;/div&gt; &lt;!-- ast-container --&gt; <br/>
+   &lt;/div&gt;&lt;!-- #content --&gt; <br/>
+   &lt;footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope itemid="#colophon"&gt; <br/>
+    &lt;div class="ast-small-footer footer-sml-layout-1"&gt; <br/>
+     &lt;div class="ast-footer-overlay"&gt; <br/>
+      &lt;div class="ast-container"&gt; <br/>
+       &lt;div class="ast-small-footer-wrap"&gt; <br/>
+        &lt;div class="ast-small-footer-section ast-small-footer-section-1"&gt;<br/>
+          Bengaluru, India | Email: selectorshub@gmail.com <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="ast-small-footer-section ast-small-footer-section-2"&gt;<br/>
+          Copyright © 2022 SelectorsHub <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt;&lt;!-- .ast-row .ast-small-footer-wrap --&gt; <br/>
+      &lt;/div&gt;&lt;!-- .ast-container --&gt; <br/>
+     &lt;/div&gt;&lt;!-- .ast-footer-overlay --&gt; <br/>
+    &lt;/div&gt;&lt;!-- .ast-small-footer--&gt; <br/>
+   &lt;/footer&gt;&lt;!-- #colophon --&gt; <br/>
+  &lt;/div&gt;&lt;!-- #page --&gt; &lt;!-- Google Tag Manager (noscript) --&gt; <br/>
+  &lt;noscript&gt;<br/>
+   &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS3SKLS" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"&gt;&lt;/iframe&gt;<br/>
+  &lt;/noscript&gt; &lt;!-- End Google Tag Manager (noscript) --&gt;<br/>
+  &lt;link rel="stylesheet" id="e-animations-css" href="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css,qver=3.5.5.pagespeed.ce.RgG6VQREE3.css" media="all"&gt; <br/>
+  &lt;script type="text/javascript" id="astra-theme-js-js-extra"&gt;//&lt;![CDATA[<br/>
+var astra={"break_point":"921","isRtl":""};<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/themes/astra/assets/js/minified/style.min.js,qver=3.7.7.pagespeed.ce.lwUbjGhK5_.js" id="astra-theme-js-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="wpbs-script-js-extra"&gt;//&lt;![CDATA[<br/>
+var wpbs_ajax={"token":"96cc2456b3","plugin_settings":[]};<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="wpbs-script-js-before"&gt;var wpbs_ajaxurl='https://selectorshub.com/wp-admin/admin-ajax.php';&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/wp-booking-system/assets/js/script-front-end.min.js,qver=2.0.15.pagespeed.ce.s5wTZpVFW4.js" id="wpbs-script-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/wp-datepicker/js/wpdp_auto_script.js?ver=202202090238" id="datepicker-script-auto-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="wp-embed-js"&gt;//&lt;![CDATA[<br/>
+!function(c,d){"use strict";var e=!1,n=!1;if(d.querySelector)if(c.addEventListener)e=!0;if(c.wp=c.wp||{},!c.wp.receiveEmbedMessage)if(c.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){for(var r,a,i,s=d.querySelectorAll('iframe[data-secret="'+t.secret+'"]'),n=d.querySelectorAll('blockquote[data-secret="'+t.secret+'"]'),o=0;o&lt;n.length;o++)n[o].style.display="none";for(o=0;o&lt;s.length;o++)if(r=s[o],e.source===r.contentWindow){if(r.removeAttribute("style"),"height"===t.message){if(1e3&lt;(i=parseInt(t.value,10)))i=1e3;else if(~~i&lt;200)i=200;r.height=i}if("link"===t.message)if(a=d.createElement("a"),i=d.createElement("a"),a.href=r.getAttribute("src"),i.href=t.value,i.host===a.host)if(d.activeElement===r)c.top.location.href=t.value}}},e)c.addEventListener("message",c.wp.receiveEmbedMessage,!1),d.addEventListener("DOMContentLoaded",t,!1),c.addEventListener("load",t,!1);function t(){if(!n){n=!0;for(var e,t,r=-1!==navigator.appVersion.indexOf("MSIE 10"),a=!!navigator.userAgent.match(/Trident.*rv:11\./),i=d.querySelectorAll("iframe.wp-embedded-content"),s=0;s&lt;i.length;s++){if(!(e=i[s]).getAttribute("data-secret"))t=Math.random().toString(36).substr(2,10),e.src+="#?secret="+t,e.setAttribute("data-secret",t);if(r||a)(t=e.cloneNode(!0)).removeAttribute("security"),e.parentNode.replaceChild(t,e)}}}}(window,document);<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/tablepress/js/jquery.datatables.min.js?ver=1.14" id="tablepress-datatables-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.5" id="elementor-webpack-runtime-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js,qver=3.5.5.pagespeed.ce.cILAt7m8S1.js" id="elementor-frontend-modules-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.5.5" id="share-link-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0" id="elementor-dialog-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="elementor-frontend-js-before"&gt;var elementorFrontendConfig={"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.5.5","is_static":false,"experimentalFeatures":{"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/selectorshub.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":6034,"title":"XPath%20%26%20cssSelector%20Practice%20Page%20with%20all%20scenarios%20%E2%80%93%20SelectorsHub","excerpt":"","featuredImage":"https:\/\/selectorshub.com\/wp-content\/uploads\/2022\/01\/Screenshot-2022-01-11-at-12.23.19-PM-1024x596.png"}};&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.5" id="elementor-frontend-js"&gt;&lt;/script&gt;<br/>
+  &lt;div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all notranslate"&gt;&lt;/div&gt;&lt;span id="elementor-device-mode" class="elementor-screen-only"&gt;&lt;/span&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.5.5" id="preloaded-modules-js"&gt;&lt;/script&gt;<br/>
+  &lt;svg style="display: none;" class="e-font-icon-svg-symbols"&gt;&lt;/svg&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="wp-util-js-extra"&gt;//&lt;![CDATA[<br/>
+var _wpUtilSettings={"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-includes/js/wp-util.min.js?ver=5.8.3" id="wp-util-js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" id="wpforms-elementor-js-extra"&gt;//&lt;![CDATA[<br/>
+var wpformsElementorVars={"captcha_provider":"recaptcha","recaptcha_type":"v2"};<br/>
+//]]&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="https://selectorshub.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.7.2" id="wpforms-elementor-js"&gt;&lt;/script&gt; <br/>
+  &lt;script&gt;/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);&lt;/script&gt; <br/>
+  &lt;script&gt;jQuery(function($){$('#tablepress-3').dataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});});&lt;/script&gt; <br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

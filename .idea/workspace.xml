@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f516d7c8-ff2d-4042-81c4-381854ee6c47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Appium/Appium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium/src/test/java/AppiumDemoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumAutomation/AppiumAutomation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/AppiumMobileAutomation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/actionsInAppium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/extentsReportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/mobileActionsOnElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/mobileBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/parallelRunning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/src/test/java/selectorStatergiesInAppium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Appium_MobileAutomation/testng_oneServer_2ports_runParallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure and Algorithm/Data Structure and Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure and Algorithm/src/test/java/Arrays_Testing/arraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingExternalBuilderClass/EmployeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingExternalBuilderClass/useBuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingInnerStaticClass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingInnerStaticClass/useBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingLambdas/Employee1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingLambdas/EmployeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/UsingLambdas/UseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/Builder/lambokPlugin/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/FactoryMethod/DriverFactory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/FactoryMethod/DriverFactory/UsePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/FactoryMethod/DriverFactoryWithSupplier/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/FactoryMethod/DriverFactoryWithSupplier/DrvFactSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/test/java/Creational/FactoryMethod/DriverFactoryWithSupplier/UsePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/PhoneNumberProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/StringToBooleanConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/StringToBrowserTypeConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/StringToIntegerConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/StringToLocalDateConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/ExcelManager/testDataPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/PropertyManager/FrameworkConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/main/java/utils/enums/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/test/java/tests/Property/RunnerWithOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/test/java/tests/ReadFromExcel/ExcelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFrameworkEssentials/src/test/resources/FrameworkConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarateLearning/KarateLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/MobileAutomationFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/constants/FrameworkConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/constants/FrameworkConstantsWithLombak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/BrowserStackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/IDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/LocalDriverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/driver/Modes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/exception/FrameworkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/facade/DragDropFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/facade/FakerFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/pages/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/pages/ViewsLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/utils/DynamicXpathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/main/java/com/udzial/utils/ProprertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/test/java/com/udzial/testCases/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/test/java/com/udzial/testCases/tapTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/test/resources/apkfiles/ApiDemos-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MobileAutomationFramework/src/test/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UIPages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/loginPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/openGmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/assertJ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/ListsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/NumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/customClassAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/dateTimeOnAssertj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/mapTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assertJ/src/test/java/softAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node_modules/tunnel/.idea/node-tunnel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdriverio/node_modules/clone/clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdriverio/node_modules/jasmine/.idea/jasmine-npm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcepts/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcepts/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/com/org/KarateLearning/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KarateLearning/src/test/java/com/org/KarateLearning/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/com/org/KarateLearning/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/features/getAllBookings.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/features/getSpecificBooking.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/features/getUserDetails.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/features/postRequest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KarateLearning/src/test/java/resources/inputFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../KarateLearning/src/test/java/resources/inputFile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/VerifyHours_main_company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/VerifyHours_main_company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/fillHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/fillHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/fillHours_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/fillHours_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/open_leisure_Sites.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProject/FillHours_sample/src/test/java/open_leisure_Sites.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerenityBddUI" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24s2Obbp8yrj48Uj9OpSjYOU9Rs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="JUnit.loginPageTests">
+    <configuration name="SerenityBddUI [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="loginPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.loginPageTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="loginPageTests.appLoginTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.loginPageTests.appLoginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="MANIFEST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginPageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerenityBddUI.test" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginPageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginPageTests.appLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerenityBddUI.test" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginPageTests" />
+      <option name="METHOD_NAME" value="appLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.loginPageTests" />
+        <item itemvalue="JUnit.loginPageTests.appLoginTest" />
+        <item itemvalue="Gradle.loginPageTests" />
+        <item itemvalue="Gradle.loginPageTests.appLoginTest (1)" />
+        <item itemvalue="Gradle.SerenityBddUI [test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f516d7c8-ff2d-4042-81c4-381854ee6c47" name="Changes" comment="" />
+      <created>1644404948342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644404948342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SerenityBddUI$loginPageTests.ic" NAME="loginPageTests Coverage Results" MODIFIED="1644823294666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+  </component>
+</project>

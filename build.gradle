@@ -1,0 +1,88 @@
+buildscript {
+    project.ext{
+        serenityCoreVersion='3.1.20'
+    }
+    repositories {
+        mavenLocal()
+
+    }
+    dependencies {
+        classpath('net.serenity-bdd:serenity-gradle-plugin:' + serenityCoreVersion)
+    }
+}
+
+
+plugins {
+    id 'java'
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.1.20"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+defaultTasks 'clean','test','aggregate'
+
+apply plugin: 'java'
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+group 'org.serenityBDDUI'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+
+ext
+        {
+            serenityCoreVersion = '5.8.1'
+            jUnitVersion = '5.8.2'
+            assertJVersion = '3.22.0'
+            serenityJUnitVersion='3.1.20'
+            serenityScreenplayVersion='3.1.20'
+            serenityCoreVersion='3.1.20'
+
+        }
+dependencies {
+
+
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${jUnitVersion}"
+
+    implementation "net.serenity-bdd:serenity-junit:${serenityJUnitVersion}"
+
+    implementation "net.serenity-bdd:serenity-screenplay:${serenityScreenplayVersion}"
+
+    testImplementation "org.assertj:assertj-core:${assertJVersion}"
+
+    implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}"
+
+
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${jUnitVersion}"
+}
+
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+            srcDir 'test'
+            srcDir 'java'
+            srcDir 'tests'
+        }
+    }
+}
+
+
+test {
+    useJUnitPlatform()
+    //testLogging.showStandardStreams = true
+    //systemProperties System.getProperties()
+}
+
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
