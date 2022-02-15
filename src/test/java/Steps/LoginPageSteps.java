@@ -26,6 +26,11 @@ public class LoginPageSteps {
         Assertions.assertThat(loginPage.headingIsPresent()).isEqualTo("MY ACCOUNT");
     }
 
+    @Step
+    public void navigateToContactUsPage()
+    {
+        loginPage.goToContactsUsPage();
+    }
 
 
 }

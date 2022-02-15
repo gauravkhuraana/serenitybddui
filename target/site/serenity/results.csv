@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login page tests","App login test","SUCCESS","2022-02-14T12:51:38.474+05:30[Asia/Calcutta]","0.0","18.07"
+"Acc page tests","Acc page logo test","SUCCESS","2022-02-15T16:17:37.4797371+05:30[Asia/Calcutta]","0.0","34.71"
+"Acc page tests","Search test","SUCCESS","2022-02-15T16:18:12.4254319+05:30[Asia/Calcutta]","0.0","11.4"
+"Contact us test","Yet to implement it","PENDING","2022-02-15T16:18:26.5634946+05:30[Asia/Calcutta]","0.0","0.0"
+"Contact us test","Fill contact us page test","SUCCESS","2022-02-15T16:18:26.5754988+05:30[Asia/Calcutta]","0.0","21.1"
+"Login page tests","App login test","SUCCESS","2022-02-15T16:18:48.4993116+05:30[Asia/Calcutta]","0.0","20.99"

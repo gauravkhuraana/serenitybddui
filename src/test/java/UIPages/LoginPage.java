@@ -2,8 +2,10 @@ package UIPages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
+import org.openqa.selenium.By;
 
-@DefaultUrl("http://automationpractice.com/index.php?controller=my-account")
+//@DefaultUrl("http://automationpractice.com/index.php?controller=my-account")
+
 public class LoginPage extends PageObject {
 
     public void doLogin()
@@ -16,6 +18,11 @@ public class LoginPage extends PageObject {
 
     public String headingIsPresent() {
         return $("//h1[@class=\"page-heading\"]").getText();
+    }
+
+    public void goToContactsUsPage()
+    {
+        $(By.linkText("Contact us")).click();
     }
 
 }

@@ -10,14 +10,12 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-//@RunWith(JunitPlatform.class)
-public class loginPageTests {
+public class loginPageTests extends BaseTest{
 
     @Steps
     LoginPageSteps loginPageSteps;
 
-    @Managed(driver = "chrome")
-    WebDriver browser;
+
 
     @Test
     public void appLoginTest()

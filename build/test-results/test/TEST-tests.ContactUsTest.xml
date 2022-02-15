@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.ContactUsTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2022-02-15T10:48:26" hostname="MININT-CTUDG93" time="21.101">
+  <properties/>
+  <testcase name="YetToImplementIt" classname="tests.ContactUsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="fillContactUsPageTest" classname="tests.ContactUsTest" time="21.096"/>
+  <system-out><![CDATA[Your message has been successfully sent to our team.
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 55586
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 15, 2022 4:18:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 15, 2022 4:18:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 97
+Feb 15, 2022 4:18:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 98 of 97
+]]></system-err>
+</testsuite>

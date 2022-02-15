@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="tests.AccPageTests" skipped="0" tests="1" time="27.47" timestamp="2022-02-15 02:23:33"><testcase classname="tests.AccPageTests" name="Search test"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+UIPages.AccPage.doSearch(AccPage.java:16)&#13;
+Steps.accPageSteps.searchProduct(accPageSteps.java:20)&#13;
+tests.AccPageTests.searchTest(AccPageTests.java:36)&#13;
+</system-err></testcase></testsuite>
